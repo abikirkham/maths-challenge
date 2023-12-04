@@ -224,6 +224,10 @@ nav a:hover {
     bottom: 0;
 }
 
+.container {
+    width: 90%;
+} 
+
 /* Signup Section Styles */
 .signup {
     max-width: 800px;
