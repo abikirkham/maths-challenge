@@ -152,6 +152,19 @@ nav a:hover {
     margin: 30px auto;
 }
 
+.controls-area button i {
+    display: inline-block;
+    padding-top: 7px;
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.controls-area button i img {
+    width: 100%;
+}
+
+
 #score {
     color: green;
     font-weight: bold;
@@ -206,21 +219,7 @@ nav a:hover {
      margin: 0;
  }
 
-/* Media Styles for smaller screens */
-@media screen and (max-width: 800px) {
-    body {
-        padding-top: 50px;
-        margin-top: 50px;
-    }
 
-    main {
-        padding: 20px;
-    }
-
-    #logo {
-        font-size: 24px;
-    }
-}
 
 /*Button styles for start playing on index*/
 button {
@@ -274,4 +273,24 @@ footer {
     left: 0;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Styles for smaller screens */
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    #logo {
+        font-size: 24px; 
+    }
+    #game-container {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
 }
