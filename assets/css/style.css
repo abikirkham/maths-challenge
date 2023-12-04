@@ -9,6 +9,7 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Global Styles */
@@ -122,6 +123,15 @@ nav a:hover {
 #game-container {
     text-align: center;
 }
+
+.info-box {
+    border: none;
+    padding: 20px;   
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+ }
+
 /* Media Styles for smaller screens */
 @media screen and (max-width: 800px) {
     body {
@@ -136,6 +146,22 @@ nav a:hover {
     #logo {
         font-size: 24px;
     }
+}
+
+/*Button styles for start playing on index*/
+button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EF476F;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+button a:hover {
+     color: #06D6A0;
 }
 
 /* Footer Styles */
