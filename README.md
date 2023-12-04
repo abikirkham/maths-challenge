@@ -51,7 +51,7 @@ I've decided to incorporate a discreet navigation feature that becomes visible u
 
 ### Footer
 Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer proudly displays the essence of mathematical excellence, encapsulating the spirit of the challenge in a single phrase. 
-![Footer](docs/)
+![Footer](docs/footerscrnsht.jpg)
 
 
 
