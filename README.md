@@ -95,15 +95,6 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 ### Accessibility Statement
 Committed to making *Maths Challenge* accessible to all users, complying with accessibility standards such as WCAG.
 
-### Privacy Policy
-Details on how user data is handled and protected, fostering trust and transparency.
-
-### Terms of Use
-Outlining rules and expectations for user engagement, creating a clear framework for interaction.
-
-### Contact Information
-Readily available contact information for questions, feedback, or accessibility concerns.
-
 ## Testing
 
 # Responsive Design
@@ -112,7 +103,7 @@ Ensure the project is responsive across various screen sizes and browsers, adher
 
 ### Testing Procedure
 
-1. Open your preferred browser and visit the Yoga for Beginners website.
+1. Open your preferred browser and visit the Maths Challenge
 2. Access developer tools by right-clicking and selecting inspect.
 3. Set the view to responsive and reduce the width to 320px.
 4. Adjust the zoom to 50%.
