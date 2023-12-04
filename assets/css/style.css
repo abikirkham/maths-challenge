@@ -7,20 +7,24 @@ ul,
 li,
 p {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #FFD166;
     color: #EF476F;
-    padding-top: 60px;
-    margin-top: 60px;
+    padding-top: 80px;
+    margin-top: 80px;
 }
+
 /* Remove underline for links with class 'no-underline' */
 .no-underline {
     text-decoration: none;
 }
+
 /* Header Styles */
 header {
     position: fixed;
@@ -31,6 +35,7 @@ header {
     color: #EF476F;
     padding: 20px 0;
     z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -38,26 +43,14 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#menu,
-#logo{
-    background-color: #FFD166;
-    color: #EF476F;
-    text-align: center;
-
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+    padding: 0 30px;
 }
 
 #logo {
-    font-size: 52px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #EF476F;
+    text-decoration: none;
 }
 
 #logo:hover {
@@ -65,17 +58,16 @@ header {
 }
 
 /* Navigation Styles */
-
 nav {
     text-align: center;
 }
 
 nav ul {
-    padding: 5px;
+    padding: 10px;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -84,7 +76,6 @@ nav a {
     color: #EF476F;
     font-weight: bold;
     transition: color 0.3s;
-    margin-bottom: 130px;
 }
 
 nav a:hover {
@@ -95,48 +86,60 @@ nav a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
-    scroll-margin-top: 120px;
+    z-index: 1;
 }
 
 .toggle {
     display: none;
 }
 
-.toggle-label a {
-    font-size: 36px;
-}
-
-label {
-    font-size: 30px;
+.toggle-label {
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .dropdown-content {
     display: none;
-    top: 130px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 100%;
+    background-color: #FFD166;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-content li {
     padding: 10px;
-    text-align: center;
 }
 
 .toggle:checked+.toggle-label+.dropdown-content {
     display: block;
 }
 
-/* Media Styles for smaller screen */
+/* Media Styles for smaller screens */
 @media screen and (max-width: 800px) {
-
     body {
         padding-top: 50px;
         margin-top: 50px;
     }
 
     main {
-        padding-top: 60px;
-        margin-top: 25px;
+        padding: 20px;
     }
+
+    #logo {
+        font-size: 24px;
     }
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFD166;
+    color: #EF476F;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
