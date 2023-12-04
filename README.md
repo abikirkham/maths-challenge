@@ -90,6 +90,73 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - If applicable, user-specific information, allowing players to find their own rank on the leaderboard.
 - Any relevant filters or sorting options to enhance the usability of the leaderboard.
 
+## Accessibility and Transparency
+
+### Accessibility Statement
+Committed to making *The Soul Lane* accessible to all users, complying with accessibility standards such as WCAG.
+
+### Privacy Policy
+Details on how user data is handled and protected, fostering trust and transparency.
+
+### Terms of Use
+Outlining rules and expectations for user engagement, creating a clear framework for interaction.
+
+### FAQ Section
+Answers to common queries for users new to mindfulness and meditation.
+
+### Contact Information
+Readily available contact information for questions, feedback, or accessibility concerns.
+
+## Testing
+
+# Responsive Design
+
+Ensure the project is responsive across various screen sizes and browsers, adhering to the WCAG 2.1 Reflow criteria.
+
+### Testing Procedure
+
+1. Open your preferred browser and visit the Yoga for Beginners website.
+2. Access developer tools by right-clicking and selecting inspect.
+3. Set the view to responsive and reduce the width to 320px.
+4. Adjust the zoom to 50%.
+5. Drag the responsive window to its maximum width.
+
+### Expected Outcome
+
+- The website should seamlessly adapt to different screen sizes.
+- Images must not appear pixelated or stretched.
+- Horizontal scrolling should be avoided.
+- Elements on the page should not overlap.
+
+### Actual Results
+
+- The website behaved as expected, with the exception of a landscape view issue in Mozilla Firefox (details in the Unresolved Bugs section).
+- No responsive issues were identified on tested devices: Android Oukitel C21 Pro, TCL 30 Pro, iPhone SE, and Samsung Galaxy Tablet.
+
+## Accessibility
+
+Utilize the Wave Accessibility tool for ongoing development and final testing. Concentrate on the following criteria:
+
+1. Ensure all forms have associated labels or appropriate aria-labels.
+2. Validate that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
+3. Verify correct heading levels to accurately convey content importance.
+4. Confirm content is organized within landmarks for ease of use with assistive technology.
+5. Provide alternative text or titles for non-textual content.
+6. Set the HTML page lang attribute.
+7. Implement Aria properties in adherence to best practices outlined in WCAG 2.1.
+8. Follow established coding best practices for WCAG 2.1.
+
+### Manual Testing
+
+Identified accessibility issues:
+
+**Issue #1:**
+Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which i found from Microsoft word keyboard.
+
+## Deployment
+
+*Maths Challenge* is hosted on GitHub Pages, offering easy access to content and services. The deployment process involves selecting the Master Branch in the GitHub repository's Settings tab, with the live link providing direct access.
+
 ## Credits
 
 I extend gratitude to Code Institute for knowledge in HTML and CSS, enabling me to bring my ideas to life. The transformative journey from a nursing career to coding unveiled the healing power of meditation and yoga, essential tools in navigating the transition.
