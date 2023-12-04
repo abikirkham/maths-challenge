@@ -1,63 +1,60 @@
-# Project Title
+# Welcome to Maths Challenge! :video_game: :star2:
 
-A brief description of your project.
+## Overview :brain:
+Dive into the world of interactive learning and fun with our HTML-based math game! Maths challenge is designed to help you practice addition, subtraction, multiplication, and division through a series of random and challenging questions. This game offers a dynamic platform that combines the thrill of gaming with the benefits of improving your arithmetic skills.
 
-## Table of Contents
+## Why Choose Maths Challenge? :thinking:
+- **Educational Fun:** Enjoy the excitement of gaming while learning math.
+- **Randomized Questions:** Face a variety of challenges to keep you engaged.
+- **Real-time Feedback:** Get instant feedback to enhance your understanding.
+- **Leaderboard:** Compete with friends or challenge yourself to climb the leaderboard and showcase your math prowess.
 
-![favicon](docs/icon.jpg)
+## Key Features :key:
+- **Four Operations:** Practice addition, subtraction, multiplication, and division in one place.
+- **Randomized Challenges:** Never face the same question twice to keep the excitement alive!
+- **Leaderboard:** See how you stack up against others and track your progress.
 
-- [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+## How to Play :book::open_book:
+1. Select a level from the dropdown menu.
+2. Check the leaderboard to see how you stack up against other players.
+3. Click the "Start Playing" button to begin the math challenges.
+4. Solve the problems quickly and accurately to earn points.
+5. Your score will be recorded on the leaderboard for bragging rights!
 
-## Getting Started
-
-Provide instructions on how to get your project up and running on a local machine.
-
-### Prerequisites
-
-List any software, libraries, or dependencies that need to be installed.
-
-
-### Installation
-
-Step-by-step guide on how to install your project.
+# Let the math games begin! :trophy:
 
 
-## Usage
+## Features 
 
-Explain how to use your project and provide examples.
+### Landing page 
+![Landing-page](docs/LandingPage.jpg)
+
+### Choose your level
+![Levels](docs/LevelsImg.jpg)
+
+### Game Page
 
 
-## Accessibility
+### Leaderboard
+![Leaderboard](docs/Leaderboard.jpg)
 
-Utilize the Wave Accessibility tool for ongoing development and final testing. Concentrate on the following criteria:
+## The basics
 
-1. Ensure all forms have associated labels or appropriate aria-labels.
-2. Validate that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
-3. Verify correct heading levels to accurately convey content importance.
-4. Confirm content is organized within landmarks for ease of use with assistive technology.
-5. Provide alternative text or titles for non-textual content.
-6. Set the HTML page lang attribute.
-7. Implement Aria properties in adherence to best practices outlined in WCAG 2.1.
-8. Follow established coding best practices for WCAG 2.1.
+### Header with an open and close navigation
+![Closed-Nav](docs/nav%20unopened.jpg)
+![Open-Nav](docs/open%20nav.jpg)
 
-### Manual Testing
+### Footer
+![Footer](docs/)
 
-Identified accessibility issues:
 
-**Issue #1:**
-Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which i found from Microaoft word keyboard.
 
-## Deployment
+## Wirefames
 
-*The Soul Lane* is hosted on GitHub Pages, offering easy access to content and services. The deployment process involves selecting the Master Branch in the GitHub repository's Settings tab, with the live link providing direct access.
+![HomePage](docs/Homepage%20wireframe.jpg)
+![Levels](docs/Levels%20wireframe%20.jpg)
+![Game](docs/Game%20wireframe%20.jpg)
+![Leaderboard](docs/Leaderboard%20wireframe.jpg)
 
 ## Credits
 
