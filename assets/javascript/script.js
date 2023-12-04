@@ -1,3 +1,18 @@
+// Add this at the beginning of the script.js file
+
+// Get the selected level from local storage or default to level 1
+const selectedLevel = parseInt(localStorage.getItem('mathGameLevel')) || 1;
+
+// Adjust the difficulty of the game based on the selected level
+let maxOperand = 10;
+if (selectedLevel === 2) {
+    maxOperand = 20;
+} else if (selectedLevel === 3) {
+    maxOperand = 30;
+}
+
+// Add the rest of the existing script.js code here
+
 // Add the JavaScript code for the math challenge game here
 let operand1, operand2, correctAnswer;
 

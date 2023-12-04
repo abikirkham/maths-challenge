@@ -115,6 +115,11 @@ nav a:hover {
     display: block;
 }
 
+/* Container styles */
+#level-container {
+    text-align: center;
+}
+
 /* Media Styles for smaller screens */
 @media screen and (max-width: 800px) {
     body {
