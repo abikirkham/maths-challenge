@@ -23,6 +23,17 @@ body {
     margin-top: 80px;
 }
 
+/* Main settings */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    margin: 0;
+    z-index: 1;
+}
+
 /* Header Styles */
 header {
     position: fixed;
@@ -200,7 +211,6 @@ nav a:hover {
     text-align: center;
     top: 0;
     bottom: 0;
-    padding-left: 530px;
 }
 
 #game-container {
@@ -212,16 +222,7 @@ nav a:hover {
     text-align: center;
     top: 0;
     bottom: 0;
-    padding-left: 130px;
- }
-
- /* Main styles to center of page */
- main {
-     display: flex;
-   
-     height: 100vh;
-     margin: 0;
- }
+}
 
 
 
