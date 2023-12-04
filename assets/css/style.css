@@ -245,6 +245,14 @@ button a:hover {
     color: #fffcf9;
 }
 
+#level-container button:hover {
+    color: #fffcf9;
+}
+
+.question-area button:hover {
+    color: #fffcf9;
+}
+
 /*leaderboard table styles*/
  table {
      width: 50%;
