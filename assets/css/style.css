@@ -116,8 +116,9 @@ nav a:hover {
 
 .game-area {
     background-color: #ffc233;
+    display: block;
     box-sizing: border-box;
-    width: 85%;
+    width: 100%;
     height: 65vh;
     max-height: 450px;
     max-width: 830px;
@@ -139,9 +140,11 @@ nav a:hover {
 }
 
 .score-area {
+    display: inline-block;
     margin: 5px auto;
-    width: 60%;
     font-size: 1.2rem;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .controls-area {
