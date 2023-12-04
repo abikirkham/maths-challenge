@@ -5,11 +5,13 @@ h2,
 h3,
 ul,
 li,
+a,
 p {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 /* Global Styles */
@@ -19,11 +21,6 @@ body {
     color: #EF476F;
     padding-top: 80px;
     margin-top: 80px;
-}
-
-/* Remove underline for links with class 'no-underline' */
-.no-underline {
-    text-decoration: none;
 }
 
 /* Header Styles */
@@ -156,14 +153,16 @@ button {
     text-align: center;
     text-decoration: none;
     background-color: #EF476F;
-    color: #fff;
+    color: #FFD166;
     border: none;
     border-radius: 25px;
 }
-button a:hover {
-     color: #06D6A0;
+button a {
+    color:#FFD166;
 }
-
+button a:hover {
+    color: #fffcf9;
+}
 /* Footer Styles */
 footer {
     text-align: center;
