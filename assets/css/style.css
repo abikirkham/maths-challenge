@@ -198,17 +198,21 @@ nav a:hover {
 /* Container styles */
 #level-container {
     text-align: center;
+    top: 0;
+    bottom: 0;
+    padding-left: 530px;
 }
+
 #game-container {
     text-align: center;
 }
 
 .info-box {
     border: none;
-    padding: 20px;   
-    border-radius: 10px;
-    margin-top: 30px;
     text-align: center;
+    top: 0;
+    bottom: 0;
+    padding-left: 130px;
  }
 
  /* Main styles to center of page */
