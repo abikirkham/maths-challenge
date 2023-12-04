@@ -27,24 +27,30 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 ## Features 
 
 ### Landing page 
+This webpage is designed for a math challenge game where users can sharpen their math skills. It provides information about the game, instructions on how to play, and links to navigate through different sections such as levels and leaderboard. The design suggests a responsive layout, including a mobile-friendly menu. The inclusion of JavaScript indicates the potential for dynamic and interactive features on the webpage.
 ![Landing-page](docs/LandingPage.jpg)
 
 ### Choose your level
+This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
 ![Levels](docs/LevelsImg.jpg)
 
 ### Game Page
+This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
 
 
 ### Leaderboard
+This page sets up a place for displaying a leaderboard with player rankings, names, and scores. The design is consistent with the overall theme of the "Maths Challenge" website.
 ![Leaderboard](docs/Leaderboard.jpg)
 
 ## The basics
 
 ### Header with an open and close navigation
+I've decided to incorporate a discreet navigation feature that becomes visible upon clicking the three-lined icon. This menu encompasses the homepage, provides access to various levels for playing the math challenge game, and includes a leaderboard to monitor progress. Below, you can preview its appearance when both open and closed.
 ![Closed-Nav](docs/nav%20unopened.jpg)
 ![Open-Nav](docs/open%20nav.jpg)
 
 ### Footer
+Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer proudly displays the essence of mathematical excellence, encapsulating the spirit of the challenge in a single phrase. 
 ![Footer](docs/)
 
 
@@ -52,9 +58,37 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 ## Wirefames
 
 ![HomePage](docs/Homepage%20wireframe.jpg)
+
+1. Index HTML:
+- The index.html serves as the main entry point for your website. It typically contains:
+- A welcoming and visually appealing introduction to your math game.
+- Navigation links or buttons directing users to various sections of your website, such as the game levels, leaderboard, and any additional features.
+- Any important information or instructions for users, such as how to play the game or system requirements.
+
 ![Levels](docs/Levels%20wireframe%20.jpg)
+2. Levels HTML:
+- The levels.html page is where users can select the difficulty or level of the math game they want to play. It usually includes:
+- An overview of the available difficulty levels (e.g., easy, medium, hard).
+- Interactive elements like buttons or dropdowns that users can use to choose their desired level.
+- Visual cues or brief descriptions for each level to help users make an informed choice.
+- Navigation options to go back to the index page or proceed to the actual gameplay.
+
 ![Game](docs/Game%20wireframe%20.jpg)
+
+3. Game HTML:
+- The game.html page is where the core gameplay takes place. It typically features:
+- The actual math game interface, including the math problems, input fields for answers, and any interactive elements needed for gameplay.
+- Visual elements such as a timer, score counter, or progress indicator to enhance the gaming experience.
+- Clear instructions on how to play and any additional features, like hints or special power-ups.
+- A way for users to navigate back to the index or levels page after completing the game.
+
 ![Leaderboard](docs/Leaderboard%20wireframe.jpg)
+4. Leaderboard HTML:
+- The leaderboard.html page displays the scores and rankings of players. It usually includes:
+- A leaderboard section that lists top scores, player names, and possibly additional details like completion time or accuracy.
+- Navigation options to return to the index page or view other sections of the website.
+- If applicable, user-specific information, allowing players to find their own rank on the leaderboard.
+- Any relevant filters or sorting options to enhance the usability of the leaderboard.
 
 ## Credits
 
