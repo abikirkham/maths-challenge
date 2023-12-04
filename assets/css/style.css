@@ -7,7 +7,6 @@ ul,
 li,
 p {
     list-style: none;
-    text-decoration: none;
 }
 
 /* Global Styles */
@@ -48,6 +47,7 @@ header {
     background-color: #FFD166;
     color: #EF476F;
     text-align: center;
+
 }
 
 #menu {
@@ -100,11 +100,6 @@ nav a:hover {
 
 .toggle {
     display: none;
-    color: #06D6A0;
-}
-
-.toggle:hover {
-    color: #26547C;
 }
 
 .toggle-label a {
@@ -119,10 +114,6 @@ label {
     display: none;
     top: 130px;
     position: fixed;
-    left: 0;
-    right: 0;
-    margin-bottom: 20px;
-    z-index: 1;
     text-align: center;
     width: 100%;
 }
@@ -135,3 +126,17 @@ label {
 .toggle:checked+.toggle-label+.dropdown-content {
     display: block;
 }
+
+/* Media Styles for smaller screen */
+@media screen and (max-width: 800px) {
+
+    body {
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+    main {
+        padding-top: 60px;
+        margin-top: 25px;
+    }
+    }
