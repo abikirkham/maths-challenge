@@ -129,6 +129,14 @@ nav a:hover {
     text-align: center;
  }
 
+ /* Main styles to center of page */
+ main {
+     display: flex;
+   
+     height: 100vh;
+     margin: 0;
+ }
+
 /* Media Styles for smaller screens */
 @media screen and (max-width: 800px) {
     body {
