@@ -6,7 +6,6 @@ A brief description of your project.
 
 ![favicon](docs/icon.jpg)
 
-
 - [Project Title](#project-title)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
