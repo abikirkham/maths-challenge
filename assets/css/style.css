@@ -297,4 +297,7 @@ footer {
         max-width: fit-content;
         max-height: fit-content;
     }
+    #info-box {
+        padding-left: 10px;
+    }
 }
