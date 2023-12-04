@@ -7,6 +7,7 @@ ul,
 li,
 p {
     list-style: none;
+    text-decoration: none;
 }
 
 /* Global Styles */
@@ -16,6 +17,10 @@ body {
     color: #EF476F;
     padding-top: 60px;
     margin-top: 60px;
+}
+/* Remove underline for links with class 'no-underline' */
+.no-underline {
+    text-decoration: none;
 }
 /* Header Styles */
 header {
@@ -39,9 +44,9 @@ header {
 }
 
 #menu,
-#logo {
-    background-color: #EF476F;
-    color: #FFD166;
+#logo{
+    background-color: #FFD166;
+    color: #EF476F;
     text-align: center;
 }
 
@@ -76,7 +81,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #FFD166;
+    color: #EF476F;
     font-weight: bold;
     transition: color 0.3s;
     margin-bottom: 130px;
