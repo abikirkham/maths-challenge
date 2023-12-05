@@ -153,4 +153,15 @@ const questions = [
 ];
 
 const questionElement = document.getElementById("question");
-const questionElement = document.getElementById("answer-buttons");
+const answerButton = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz(){
+  currentQuestionIndex = 0;
+  score = 0;
+  nextButton.innerHTML = "Next Question";
+  showQuestion();
+}
