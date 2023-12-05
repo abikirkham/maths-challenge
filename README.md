@@ -7,7 +7,7 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 - **Educational Fun:** Enjoy the excitement of gaming while learning math.
 - **Randomized Questions:** Face a variety of challenges to keep you engaged.
 - **Real-time Feedback:** Get instant feedback to enhance your understanding.
-- **Leaderboard:** Compete with friends or challenge yourself to climb the leaderboard and showcase your math prowess.
+- **A chance to offer feedback:** Change the game to suit your needs. Your feedback has a high chance of getting implmented. I am always here to improve.
 
 ## Key Features :key:
 - **Four Operations:** Practice addition, subtraction, multiplication, and division in one place.
@@ -15,11 +15,10 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 - **Leaderboard:** See how you stack up against others and track your progress.
 
 ## How to Play :book::open_book:
-1. Select a level from the dropdown menu.
-2. Check the leaderboard to see how you stack up against other players.
-3. Click the "Start Playing" button to begin the math challenges.
-4. Solve the problems quickly and accurately to earn points.
-5. Your score will be recorded on the leaderboard for bragging rights!
+1. Click the "Start Playing" button to begin the math challenges.
+2. Select a level from the dropdown menu.
+3. Solve the problems quickly and accurately to earn points.
+4. Your score will be recorded on the leaderboard for bragging rights!
 
 # Let the math games begin! :trophy:
 
@@ -38,9 +37,8 @@ This HTML code sets up a page where users can select a level for the math challe
 This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
 
 
-### Leaderboard
-This page sets up a place for displaying a leaderboard with player rankings, names, and scores. The design is consistent with the overall theme of the "Maths Challenge" website.
-![Leaderboard](docs/Leaderboard.jpg)
+### Contact Page
+The contact.html page is where I have a chance to accept feedback from users. This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
 
 ## The basics
 
@@ -73,7 +71,7 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Visual cues or brief descriptions for each level to help users make an informed choice.
 - Navigation options to go back to the index page or proceed to the actual gameplay.
 
-![Game](docs/Game%20wireframe%20.jpg)
+
 
 3. Game HTML:
 - The game.html page is where the core gameplay takes place. It typically features:
@@ -82,13 +80,9 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Clear instructions on how to play and any additional features, like hints or special power-ups.
 - A way for users to navigate back to the index or levels page after completing the game.
 
-![Leaderboard](docs/Leaderboard%20wireframe.jpg)
-4. Leaderboard HTML:
-- The leaderboard.html page displays the scores and rankings of players. It usually includes:
-- A leaderboard section that lists top scores, player names, and possibly additional details like completion time or accuracy.
-- Navigation options to return to the index page or view other sections of the website.
-- If applicable, user-specific information, allowing players to find their own rank on the leaderboard.
-- Any relevant filters or sorting options to enhance the usability of the leaderboard.
+4. Contact HTML:
+- The contact.html page is where I have a chance to accept feedback from users.
+- This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
 
 ## Accessibility and Transparency
 
@@ -142,10 +136,10 @@ Hidden checkboxes and labels for the gallery filter and accordion were inaccessi
 
 ## Credits
 
-I extend gratitude to Code Institute for knowledge in HTML and CSS, enabling me to bring my ideas to life. The transformative journey from a nursing career to coding unveiled the healing power of meditation and yoga, essential tools in navigating the transition.
+I extend gratitude to Code Institute for knowledge in Javascript, HTML and CSS, enabling me to bring my ideas to life. The transformative journey from a nursing career to coding unveiled the skills I can create from determination and creativity. 
 
-I have taken some skills I have learnt from code institute such as the drop down boxes and incorporated it with some extra leanring on navigation options, which can be found [here](<https://www.youtube.com/watch?v=iXKScihfSwE>).
+I have taken some skills I have learnt from code institute such as the drop down boxes, quizes in Javascript and incorporated it with some extra leanring on how to complete a quiz with multiple choice and a scoring system, which can be found [here](<https://www.youtube.com/watch?v=PBcqGxrr9g8>).
 
 Creating better visual effects for my users experience was impirtant,I added an extra colour to links for users to know it was a link when they hovered their cursor of over the link. I got this informstion from [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/:hover#>). 
 
-Finally, I wanted to create a simple, soft, emotional vibe to my styles, by adding the opaque style to the containers - information found [here](<https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Make_box_transparent>). Aswell as creating a background which relates to the activties of the page - this to me, created a chnnce for users to get a feel of what they could experience when practising our yoga. The images created by me using this [app](<https://www.sketchbook.com>) by taking the correct hex colors from the css and creating the maths icons. Also by creating my wireframes. 
+Finally, I wanted to create a simple, soft, emotional vibe to my styles, by adding the opaque style to the containers - information found [here](<https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Make_box_transparent>). Aswell as creating a background which relates to the activties of the page - this to me, created a chance for users to get a feel of what they could experience when practising our yoga. The images created by me using this [app](<https://www.sketchbook.com>) by taking the correct hex colors from the css and creating the maths icons. Also by creating my wireframes. 
