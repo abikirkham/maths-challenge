@@ -139,17 +139,6 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.question-area {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
-}
-
-.question-area span {
-    padding: 0 15px;
-}
-
 .score-area {
     display: inline-block;
     margin: 5px auto;
@@ -157,24 +146,6 @@ nav a:hover {
     width: 100%;
     margin-top: 20px;
 }
-
-.controls-area {
-    width: 85%;
-    margin: 30px auto;
-}
-
-.controls-area button i {
-    display: inline-block;
-    padding-top: 7px;
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
-    overflow: hidden;
-}
-
-.controls-area button i img {
-    width: 100%;
-}
-
 
 #score {
     color: green;
@@ -184,20 +155,6 @@ nav a:hover {
 #incorrect {
     color: red;
     font-weight: bold;
-}
-
-.answer-message {
-    display: none;
-    font-size: 1rem;
-}
-
-#answer-box {
-    border: none;
-    color: #445361;
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    font-size: 1.2rem;
 }
 
 .scores {
