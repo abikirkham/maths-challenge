@@ -191,23 +191,24 @@ function resetState(){
   }
 }
 
-function selectAnswer(e){
-  const selectedBtn = e.target;
+function selectAnswer(event) {
+  const selectedBtn = event.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
-  if(isCorrect){
+  if (isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
-  }else{
+  } else {
     selectedBtn.classList.add("incorrect");
   }
   Array.from(answerButtons.children).forEach(button => {
-    if(button.dataset.correct === "true"){
+    if (button.dataset.correct === "true") {
       button.classList.add("correct");
     }
     button.disabled = true;
   });
   nextButton.style.display = "block";
 }
+
 
 function showScore() {
   resetState();
@@ -226,8 +227,9 @@ function handleNextButton() {
   }
 }
 
+
 nextButton.addEventListener("click", ()=>{
-  if(currentQuestionIndex < question.length){
+  if(currentQuestionIndex < questions.length){
     handleNextButton();
   }else{
     startQuiz();
