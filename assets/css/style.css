@@ -136,19 +136,15 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.game-area h1 {
-    font-size: 35px;
-    font-weight: 600;
+.game-area h2 {
     border-bottom: 1px solid #EF476F;
     padding-bottom: 15px;
 }
-
 .quiz {
     padding: 20px 0;
 }
 
 .quiz h2 {
-    font-size: 18px;
     font-weight: 600;
 }
 
