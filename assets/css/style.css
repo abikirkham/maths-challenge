@@ -132,7 +132,6 @@ nav a:hover {
     width: 90%;
     max-width: 600px;
     padding: 30px;
-    margin: 100px auto 0;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -160,10 +159,6 @@ nav a:hover {
     text-align: center;
     top: 0;
     bottom: 0;
-}
-
-#game-container {
-    text-align: center;
 }
 
 .info-box {
