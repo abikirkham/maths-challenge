@@ -252,17 +252,15 @@ form button:hover a {
 
 /*Button styles for start playing on index*/
 button {
-    padding: 20px;
+    display: inline-block;
+    padding: 15px 30px;
     font-size: 18px;
-    font-weight: 500;
-    width: 100%;
-    margin: 10px 0;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     background-color: #EF476F;
     color: #FFD166;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 button a {
     color:#FFD166;

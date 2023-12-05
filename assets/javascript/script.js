@@ -179,3 +179,5 @@ function showQuestion(){
     answerButton.appendChild(button);
   })
 }
+
+startQuiz();
