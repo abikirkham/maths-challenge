@@ -155,33 +155,6 @@ nav a:hover {
 
 
 
-
-
-
-.score-area {
-    display: inline-block;
-    margin: 5px auto;
-    font-size: 1.2rem;
-    width: 100%;
-    margin-top: 20px;
-}
-
-#score {
-    color: green;
-    font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.scores {
-    display: inline-block;
-    padding: 25px;
-}
-
-
 /* Container styles */
 #level-container {
     text-align: center;
