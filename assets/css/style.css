@@ -277,7 +277,7 @@ button a:hover {
 
 /* button styles for question answers on game */
 .btn {
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 500;
     width: 100%;
@@ -288,12 +288,32 @@ button a:hover {
     color: #FFD166;
     border: none;
     border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: #fffcf9;
 }
 
+/* styles for next button on game html */
+#next-btn {
+display: none;
+padding: 10px;
+font-weight: 500;
+width: 150px;
+margin: 20px auto 0;
+background-color: #EF476F;
+color: #FFD166;
+border: none;
+border-radius: 5px;
+transition: all 0.5s;
+cursor: pointer;
+}
+
+#next-btn:hover {
+    background-color: #fffcf9;
+}
 /*leaderboard table styles*/
  table {
      width: 50%;
