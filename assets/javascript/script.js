@@ -208,6 +208,14 @@ function selectAnswer(){
   });
   nextButton.style.display = "block";
 }
+
+function showScore(){
+  resetState();
+  questionElement.innerHTML = "You scored ${score} out of ${questions.length}!";
+  nextButton.innerHTML = "Play Again?";
+  nextButton.style.display = "block";
+}
+
 function handleNextButton(){
 currentQuestionIndex++;
 if(currentQuestionIndex < question.length){
