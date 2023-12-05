@@ -293,7 +293,9 @@ button a:hover {
 .btn:hover:not([disabled]) {
     background-color: #fffcf9;
 }
-
+.btn:disabled {
+    cursor: no-drop;
+}
 /* styles for next button on game html */
 #next-btn {
 display: none;
