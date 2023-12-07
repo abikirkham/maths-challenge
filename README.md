@@ -27,15 +27,15 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 
 ### Landing page 
 This webpage is designed for a math challenge game where users can sharpen their math skills. It provides information about the game, instructions on how to play, and links to navigate through different sections such as levels and leaderboard. The design suggests a responsive layout, including a mobile-friendly menu. The inclusion of JavaScript indicates the potential for dynamic and interactive features on the webpage.
-![Landing-page](docs/LandingPage.jpg)
+![Landing-page](docs/landingsite.jpg)
 
 ### Choose your level
 This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
-![Levels](docs/LevelsImg.jpg)
+![Levels](docs/levelssite.jpg)
 
 ### Game Page
 This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
-
+![Game](docs/questionsite.jpg)
 
 ### Contact Page
 The contact.html page is where I have a chance to accept feedback from users. This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
@@ -44,12 +44,12 @@ The contact.html page is where I have a chance to accept feedback from users. Th
 
 ### Header with an open and close navigation
 I've decided to incorporate a discreet navigation feature that becomes visible upon clicking the three-lined icon. This menu encompasses the homepage, provides access to various levels for playing the math challenge game, and includes a leaderboard to monitor progress. Below, you can preview its appearance when both open and closed.
-![Closed-Nav](docs/nav%20unopened.jpg)
-![Open-Nav](docs/open%20nav.jpg)
+![Closed-Nav](docs/Closednav.jpg)
+![Open-Nav](docs/opennav.jpg)
 
 ### Footer
 Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer proudly displays the essence of mathematical excellence, encapsulating the spirit of the challenge in a single phrase. 
-![Footer](docs/footerscrnsht.jpg)
+![Footer](docs/footersite.jpg)
 
 
 
