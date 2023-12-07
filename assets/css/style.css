@@ -230,7 +230,14 @@ button {
     border: none;
     border-radius: 25px;
 }
+
+button {
+    color: #fcf8e6;
 }
+button:hover {
+    color: #95a1c2;
+}
+
 button a {
     color:#fcf8e6;
 }
