@@ -31,7 +31,7 @@ This webpage is designed for a math challenge game where users can sharpen their
 
 ### Choose your level
 This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
-![Levels](docs/levelssite.jpg)
+![Levels](docs/levlessite.jpg)
 
 ### Game Page
 This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
