@@ -231,7 +231,8 @@ button {
     border-radius: 25px;
 }
 button:hover {
-    color: fcf8e6;
+    color: #fcf8e6;
+    background-color: #fcf8e6;
 }
 button a {
     color:#fcf8e6;
