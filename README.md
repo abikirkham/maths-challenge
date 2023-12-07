@@ -16,10 +16,10 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 
 ## How to Play :book::open_book:
 1. Click the "Start Playing" button to begin the math challenges.
-2. Select a level from the dropdown menu.
+2. Select a level of difficulty.
 3. Solve the problems quickly and accurately to earn points.
-4. Your score will be recorded on the leaderboard for bragging rights!
-
+4. Your score will be recorded after you have completed the quiz - and for bragging rights!
+            
 # Let the math games begin! :trophy:
 
 
