@@ -1,14 +1,16 @@
+// Array containing quiz questions and their respective answers
 const questions = [
+  // Each question is an object with a 'question' property and an 'answers' array
   {
     question: "What is 4 x 4?",
     answers: [
-      { text: "24", correct: false},
-      { text: "8", correct: false},
-      { text: "16", correct: true},
-      { text: "18", correct: false},
-      
+      { text: "24", correct: false },
+      { text: "8", correct: false },
+      { text: "16", correct: true },
+      { text: "18", correct: false },
     ]
   },
+  // ... (more questions)
   {
     question: "What is 2 + 3?",
     answers: [
@@ -134,7 +136,7 @@ const questions = [
     answers: [
       { text: "21", correct: false},
       { text: "11", correct: false},
-      { text: "16", correct: true},
+      { text: "16", correct: false},
       { text: "18", correct: true},
       
     ]
@@ -152,45 +154,52 @@ const questions = [
 
 ];
 
+// Get HTML elements by their IDs
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
+// Variables to keep track of the current question index and the player's score
 let currentQuestionIndex = 0;
 let score = 0;
 
-function startQuiz(){
+// Function to start the quiz by resetting variables and showing the first question
+function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
   showQuestion();
 }
 
-function showQuestion(){
-  resetState();
+// Function to display a question and its answer options
+function showQuestion() {
+  resetState(); // Clear previous question state
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = questionNo + ". " + currentQuestion. question;
+  questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
+  // Create buttons for each answer option and attach event listeners
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
     answerButtons.appendChild(button);
-    if(answer.correct){
+    if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
     button.addEventListener("click", selectAnswer);
   })
 }
 
-function resetState(){
+// Function to reset the state of the quiz (clear answer buttons and hide next button)
+function resetState() {
   nextButton.style.display = "none";
-  while(answerButtons.firstChild){
+  while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
 
+// Function to handle the selection of an answer
 function selectAnswer(event) {
   const selectedBtn = event.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -200,16 +209,17 @@ function selectAnswer(event) {
   } else {
     selectedBtn.classList.add("incorrect");
   }
+  // Disable all buttons after an answer is selected
   Array.from(answerButtons.children).forEach(button => {
     if (button.dataset.correct === "true") {
       button.classList.add("correct");
     }
     button.disabled = true;
   });
-  nextButton.style.display = "block";
+  nextButton.style.display = "block"; // Show the next button
 }
 
-
+// Function to display the final score at the end of the quiz
 function showScore() {
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
@@ -217,7 +227,7 @@ function showScore() {
   nextButton.style.display = "block";
 }
 
-
+// Function to handle the next button click
 function handleNextButton() {
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
@@ -227,14 +237,14 @@ function handleNextButton() {
   }
 }
 
-
-nextButton.addEventListener("click", ()=>{
-  if(currentQuestionIndex < questions.length){
+// Event listener for the next button
+nextButton.addEventListener("click", () => {
+  if (currentQuestionIndex < questions.length) {
     handleNextButton();
-  }else{
-    startQuiz();
+  } else {
+    startQuiz(); // If quiz is finished, restart it
   }
 });
 
-
+// Start the quiz when the page loads
 startQuiz();
