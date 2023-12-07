@@ -12,7 +12,7 @@ const questions = [
   },
   // ... (more questions)
   {
-    question: "What is 18 + 13?",
+    question: "What is 18 x 13?",
     answers: [
       { text: "349", correct: false},
       { text: "234", correct: true},
