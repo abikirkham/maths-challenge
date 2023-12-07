@@ -107,6 +107,10 @@ nav a:hover {
     cursor: pointer;
 }
 
+.toggle-label:hover {
+    color: #95a1c2;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -210,7 +214,7 @@ form button a {
 }
 
 form button:hover a {
-    background-color: #bf879e;
+    background-color: #95a1c2;
 }
 
 
@@ -230,10 +234,12 @@ button a {
     color:#fcf8e6;
 }
 button a:hover {
+    background-color: #fcf8e6;
     color: #95a1c2;
 }
 
 #level-container button:hover {
+    background-color: #fcf8e6;
     color: #95a1c2;
 }
 
@@ -324,3 +330,4 @@ footer {
         padding-left: 10px;
     }
 }
+
