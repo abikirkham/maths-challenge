@@ -79,7 +79,7 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Clear instructions on how to play and any additional features, like hints or special power-ups.
 - A way for users to navigate back to the index or levels page after completing the game.
 
-![Feedback](docs/Feedback.jpg)
+![Feedback](docs/Feedback%20.jpg)
 4. Contact HTML:
 - The contact.html page is where I have a chance to accept feedback from users.
 - This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes.
