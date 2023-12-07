@@ -71,8 +71,7 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Visual cues or brief descriptions for each level to help users make an informed choice.
 - Navigation options to go back to the index page or proceed to the actual gameplay.
 
-
-
+![Game](docs/Question.jpg)
 3. Game HTML:
 - The game.html page is where the core gameplay takes place. It typically features:
 - The actual math game interface, including the math problems, input fields for answers, and any interactive elements needed for gameplay.
@@ -80,9 +79,15 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Clear instructions on how to play and any additional features, like hints or special power-ups.
 - A way for users to navigate back to the index or levels page after completing the game.
 
+![Feedback](docs/Feedback.jpg)
 4. Contact HTML:
 - The contact.html page is where I have a chance to accept feedback from users.
-- This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
+- This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes.
+
+![Score](docs/Score.jpg)
+5. Score
+- Keep track of your score.
+- Work on your progress and get the otption to play again. 
 
 ## Accessibility and Transparency
 
