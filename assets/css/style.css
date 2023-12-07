@@ -230,15 +230,11 @@ button {
     border: none;
     border-radius: 25px;
 }
-button:hover {
-    color: #fcf8e6;
-    background-color: #fcf8e6;
 }
 button a {
     color:#fcf8e6;
 }
 button a:hover {
-    background-color: #fcf8e6;
     color: #95a1c2;
 }
 
