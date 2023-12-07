@@ -39,6 +39,7 @@ This page sets up a game for a math challenge game, providing a user interface f
 
 ### Contact Page
 The contact.html page is where I have a chance to accept feedback from users. This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
+![Feedback](docs/contactmaths.jpg)
 
 ## The basics
 
