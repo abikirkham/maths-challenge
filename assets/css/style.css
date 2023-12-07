@@ -66,6 +66,15 @@ header {
     color: #95a1c2;
 }
 
+h1 a {
+    color: #EF476F;
+}
+p a {
+    color: #EF476F;
+}
+p a:hover {
+    color: #95a1c2;
+}
 /* Navigation Styles */
 nav {
     text-align: center;
@@ -235,14 +244,16 @@ button {
     color: #fcf8e6;
 }
 button:hover {
-    color: #95a1c2;
+    background-color: #fcf8e6;
 }
 
 button a {
-    color:#fcf8e6;
+    color: #fcf8e6;
 }
+
 button a:hover {
     color: #95a1c2;
+    background-color: #fcf8e6;
 }
 
 #level-container button:hover {
