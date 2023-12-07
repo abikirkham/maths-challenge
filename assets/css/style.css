@@ -63,7 +63,7 @@ header {
 }
 
 #logo:hover {
-    color: #FFFCF9;
+    color: #95a1c2;
 }
 
 /* Navigation Styles */
@@ -88,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFFCF9;
+    color: #95a1c2;
 }
 
 /* Dropdown menu styles */
@@ -230,11 +230,11 @@ button a {
     color:#fcf8e6;
 }
 button a:hover {
-    color: #fffcf9;
+    color: #95a1c2;
 }
 
 #level-container button:hover {
-    color: #fffcf9;
+    color: #95a1c2;
 }
 
 /* button styles for question answers on game */
@@ -256,6 +256,7 @@ button a:hover {
 
 .btn:hover:not([disabled]) {
     background-color: #fffcf9;
+    color: #95a1c2;
 }
 .btn:disabled {
     cursor: no-drop;
@@ -277,6 +278,7 @@ cursor: pointer;
 
 #next-btn:hover {
     background-color: #fffcf9;
+    color: #95a1c2;
 }
 
 .correct {
