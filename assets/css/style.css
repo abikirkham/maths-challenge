@@ -238,22 +238,15 @@ button {
     color: #fcf8e6;
     border: none;
     border-radius: 25px;
+    transition: all 0.5s;
 }
 
-button {
+a button {
     color: #fcf8e6;
 }
-button:hover {
+a button:hover {
     background-color: #fcf8e6;
-}
-
-button a {
-    color: #fcf8e6;
-}
-
-button a:hover {
     color: #95a1c2;
-    background-color: #fcf8e6;
 }
 
 #level-container button:hover {
