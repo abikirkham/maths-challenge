@@ -246,5 +246,16 @@ nextButton.addEventListener("click", () => {
   }
 });
 
+// When quiz completed - based off score - will say a comment 
+
+if (score >= 0 && score <= 5) {
+    console.log("Loser... joking - keep trying!");
+} else if (score >= 6 && score <= 10) {
+    console.log("Almost there!!");
+} else if (score >= 11 && score <= 15) {
+    console.log("Nerd!!! But well done!");
+}
+
+
 // Start the quiz when the page loads
 startQuiz();
