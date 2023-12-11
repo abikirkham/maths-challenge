@@ -64,9 +64,9 @@ const questions = [
   {
     question: "What is 18 - 9?",
     answers: [
-      { text: "11", correct: true},
+      { text: "9", correct: true},
       { text: "8", correct: false},
-      { text: "9", correct: false},
+      { text: "11", correct: false},
       { text: "6", correct: false},
       
     ]
