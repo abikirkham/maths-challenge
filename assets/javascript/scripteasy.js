@@ -153,7 +153,6 @@ const questions = [
   }
 
 ];
-
 // Get HTML elements by their IDs
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -167,16 +166,15 @@ let score = 0;
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
-  nextButton.innerHTML = "Next";
-  showQuestion();
+  updateUI();
 }
 
-// Function to display a question and its answer options
-function showQuestion() {
+// Function to update the UI with the current question and answer options
+function updateUI() {
   resetState(); // Clear previous question state
-  let currentQuestion = questions[currentQuestionIndex];
-  let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+  const currentQuestion = questions[currentQuestionIndex];
+  const questionNo = currentQuestionIndex + 1;
+  questionElement.innerHTML = `${questionNo}. ${currentQuestion.question}`;
 
   // Create buttons for each answer option and attach event listeners
   currentQuestion.answers.forEach(answer => {
@@ -187,8 +185,8 @@ function showQuestion() {
     if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
-    button.addEventListener("click", selectAnswer);
-  })
+    button.addEventListener("click", handleAnswerSelection);
+  });
 }
 
 // Function to reset the state of the quiz (clear answer buttons and hide next button)
@@ -200,7 +198,7 @@ function resetState() {
 }
 
 // Function to handle the selection of an answer
-function selectAnswer(event) {
+function handleAnswerSelection(event) {
   const selectedBtn = event.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
   if (isCorrect) {
@@ -209,14 +207,28 @@ function selectAnswer(event) {
   } else {
     selectedBtn.classList.add("incorrect");
   }
-  // Disable all buttons after an answer is selected
+  disableAnswerButtons();
+  nextButton.style.display = "block"; // Show the next button
+}
+
+// Function to disable all answer buttons after an answer is selected
+function disableAnswerButtons() {
   Array.from(answerButtons.children).forEach(button => {
     if (button.dataset.correct === "true") {
       button.classList.add("correct");
     }
     button.disabled = true;
   });
-  nextButton.style.display = "block"; // Show the next button
+}
+
+// Function to handle the next button click
+function handleNextButtonClick() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions.length) {
+    updateUI();
+  } else {
+    showScore();
+  }
 }
 
 // Function to display the final score at the end of the quiz
@@ -225,25 +237,12 @@ function showScore() {
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
-
-
-}
-
-
-// Function to handle the next button click
-function handleNextButton() {
-  currentQuestionIndex++;
-  if (currentQuestionIndex < questions.length) {
-    showQuestion();
-  } else {
-    showScore();
-  }
 }
 
 // Event listener for the next button
 nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < questions.length) {
-    handleNextButton();
+    handleNextButtonClick();
   } else {
     startQuiz(); // If quiz is finished, restart it
   }
