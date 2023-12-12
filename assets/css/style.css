@@ -228,7 +228,7 @@ form button:hover a {
 
 
 /*Button styles for start playing on index*/
-span.button {
+.button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
@@ -241,7 +241,7 @@ span.button {
     transition: all 0.5s;
 }
 
-span.button:hover {
+.button:hover {
     background-color: #fcf8e6;
     color: #95a1c2;
 }
