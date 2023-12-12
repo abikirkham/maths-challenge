@@ -226,20 +226,9 @@ function showScore() {
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
 
-  // Display comment based on the score
-  displayComment();
+
 }
 
-// Function to display a comment based on the score
-function displayComment() {
-  if (score >= 0 && score <= 5) {
-    console.log("Loser... joking - keep trying!");
-  } else if (score >= 6 && score <= 10) {
-    console.log("Almost there!!");
-  } else if (score >= 11 && score <= 15) {
-    console.log("Nerd!!! But well done!");
-  }
-}
 
 // Function to handle the next button click
 function handleNextButton() {
@@ -248,7 +237,6 @@ function handleNextButton() {
     showQuestion();
   } else {
     showScore();
-    displayComment();
   }
 }
 
