@@ -227,8 +227,8 @@ form button:hover a {
 }
 
 
-/*Button styles for start playing on index*/
-.button {
+/*Button styles for start playing on index and levels*/
+span.button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
@@ -241,7 +241,7 @@ form button:hover a {
     transition: all 0.5s;
 }
 
-.button:hover {
+span.button:hover {
     background-color: #fcf8e6;
     color: #95a1c2;
 }
