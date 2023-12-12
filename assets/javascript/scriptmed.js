@@ -233,14 +233,15 @@ function showScore() {
 
 // Function to display a comment based on the score
 function displayComment() {
+  let comment = "";
   if (score >= 0 && score <= 5) {
-    console.log("Loser... joking - keep trying!");
+    comment = "Loser... joking - keep trying!";
   } else if (score >= 6 && score <= 10) {
-    console.log("Almost there!!");
+    comment = "Almost there!!";
   } else if (score >= 11 && score <= 15) {
-    console.log("Nerd!!! But well done!");
+    comment = "Nerd!!! But well done!";
   }
-}
+
 
 // Function to handle the next button click
 function handleNextButton() {
