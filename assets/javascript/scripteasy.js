@@ -154,7 +154,6 @@ const questions = [
 
 ];
 
-
 // Get HTML elements by their IDs
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -233,15 +232,14 @@ function showScore() {
 
 // Function to display a comment based on the score
 function displayComment() {
-  let comment = "";
   if (score >= 0 && score <= 5) {
-    comment = "Loser... joking - keep trying!";
+    console.log("Loser... joking - keep trying!");
   } else if (score >= 6 && score <= 10) {
-    comment = "Almost there!!";
+    console.log("Almost there!!");
   } else if (score >= 11 && score <= 15) {
-    comment = "Nerd!!! But well done!";
+    console.log("Nerd!!! But well done!");
   }
-
+}
 
 // Function to handle the next button click
 function handleNextButton() {
