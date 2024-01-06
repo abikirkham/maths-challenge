@@ -49,7 +49,7 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 
 ## Key Features :key:
 - **Four Operations:** Practice addition, subtraction, multiplication, and division in one place.
-- **Randomized Challenges:** Never face the same question twice to keep the excitement alive!
+- **Randomised Challenges:** Never face the same question twice to keep the excitement alive!
 - **Leaderboard:** See how you stack up against others and track your progress.
 
 ## How to Play :book::open_book:
