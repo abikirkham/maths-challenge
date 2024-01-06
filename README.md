@@ -1,5 +1,5 @@
 # Welcome to Maths Challenge! :video_game: :star2:
-# Maths Challenge Contents
+## Maths Challenge Contents
 
 1. [Overview](#overview)
 2. [Why Choose Maths Challenge?](#why-choose-maths-challenge)
