@@ -36,7 +36,6 @@
         - [JavaScript](#javascript)
     - [Deployment](#deployment)
         - [Github](#github)
-        - [Forking the Github Repository](#forking-the-github-repository)
         - [Making a Local Clone](#making-a-local-clone)
   9. [Credits](#credits)
 ## Overview :brain:
@@ -65,7 +64,7 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
 
 ## Students Seeking Math Practice
 As a student, I want to use Maths Challenge to practice addition, subtraction, multiplication, and division in a fun and interactive way, helping me improve my math skills.
-I want the game to provide randomized questions to keep me engaged and challenged.
+I want the game to provide randomised questions to keep me engaged and challenged.
 Real-time feedback is crucial for me to understand my mistakes and learn from them.
 
 ## Teachers Looking for Educational Games
@@ -80,7 +79,7 @@ The game's real-time feedback ensures my child is learning and grasping mathemat
 
 ## Individuals Wanting to Enhance Quick Math Skills
 As an individual seeking to improve my mental math skills, I find Maths Challenge to be a perfect platform.
-The randomized challenges and time pressure help me think on my feet and improve my quick math calculations.
+The randomised challenges and time pressure help me think on my feet and improve my quick math calculations.
 I value the leaderboard feature, as it allows me to compare my performance with others and set personal goals.
 
 ## Friends Competing Against Each Other
@@ -227,7 +226,7 @@ Ensuring accessibility is a priority to make Maths Challenge inclusive to all us
    - Verified correct heading levels to accurately convey content importance.
 
 4. **Landmarks:**
-   - Confirmed content is organized within landmarks for ease of use with assistive technology.
+   - Confirmed content is organised within landmarks for ease of use with assistive technology.
 
 5. **Alternative Text:**
    - Provided alternative text or titles for non-textual content.
@@ -300,15 +299,6 @@ This project, *Maths Challenge*, is deployed using GitHub pages using the follow
 - Under Source, select the None tab and change it to Main and click Save.
 - Finally once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
 
-### Forking the Github Repository
-
-You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
-
-### Find the GitHub repository.
-
-- At the top of the page to the right, under your account, click the Fork button.
-- You will now have a copy of the repository in your GitHub account.
-
 ### Making a Local Clone
 
 - Find the GitHub Repository.
@@ -326,5 +316,3 @@ I extend gratitude to Code Institute for knowledge in Javascript, HTML and CSS, 
 I have taken some skills I have learnt from code institute such as the drop down boxes, quizes in Javascript and incorporated it with some extra leanring on how to complete a quiz with multiple choice and a scoring system, which can be found [here](<https://www.youtube.com/watch?v=PBcqGxrr9g8>).
 
 Creating better visual effects for my users experience was impirtant,I added an extra colour to links for users to know it was a link when they hovered their cursor of over the link. I got this informstion from [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/:hover#>). 
-
-Finally, I wanted to create a simple, soft, emotional vibe to my styles, by adding the opaque style to the containers - information found [here](<https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Make_box_transparent>). Aswell as creating a background which relates to the activties of the page - this to me, created a chance for users to get a feel of what they could experience when practising our yoga. The images created by me using this [app](<https://www.sketchbook.com>) by taking the correct hex colors from the css and creating the maths icons. Also by creating my wireframes. 
