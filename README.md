@@ -22,6 +22,48 @@ Dive into the world of interactive learning and fun with our HTML-based math gam
             
 # Let the math games begin! :trophy:
 
+# User Stories
+
+## Students Seeking Math Practice
+As a student, I want to use Maths Challenge to practice addition, subtraction, multiplication, and division in a fun and interactive way, helping me improve my math skills.
+I want the game to provide randomized questions to keep me engaged and challenged.
+Real-time feedback is crucial for me to understand my mistakes and learn from them.
+
+## Teachers Looking for Educational Games
+As a teacher, I am excited to introduce Maths Challenge to my students as an engaging and educational game.
+I appreciate the variety of challenges offered by the game, helping students practice different math operations.
+The leaderboard feature allows me to track the progress of my students and motivate them to improve.
+
+## Parents Supporting Their Children's Learning
+As a parent, I see Maths Challenge as a valuable tool for my child's math development.
+I appreciate the option to select different difficulty levels to match my child's skill level.
+The game's real-time feedback ensures my child is learning and grasping mathematical concepts effectively.
+
+## Individuals Wanting to Enhance Quick Math Skills
+As an individual seeking to improve my mental math skills, I find Maths Challenge to be a perfect platform.
+The randomized challenges and time pressure help me think on my feet and improve my quick math calculations.
+I value the leaderboard feature, as it allows me to compare my performance with others and set personal goals.
+
+## Friends Competing Against Each Other
+As friends looking for a fun and competitive math game, we enjoy the multiplayer aspect of Maths Challenge.
+We can challenge each other by selecting the same difficulty level and see who can score higher.
+The game's dynamic nature ensures that each round is a new and exciting experience.
+
+## Users Seeking a Quick and Fun Brain Exercise
+As someone looking for a quick and enjoyable brain exercise, I appreciate the simplicity and accessibility of Maths Challenge.
+The game's structure, with different levels and randomized challenges, keeps me entertained during short breaks.
+I can easily track my progress and see improvements in my math skills over time.
+
+## Users Who Enjoy Providing Feedback
+As a user who enjoys providing feedback, I appreciate the opportunity to share my thoughts on Maths Challenge.
+Knowing that my feedback has a high chance of being implemented makes me feel valued as a user.
+I find the contact page user-friendly, and the option to offer feedback adds to the overall positive experience.
+
+## Competitive Individuals Looking for a Challenge
+As a competitive individual seeking a challenging math game, I am drawn to the variety of questions in Maths Challenge.
+The scoring system and leaderboard provide a clear measure of my performance against others.
+I enjoy the thrill of competing and improving my rank on the leaderboard.
+
 
 ## Features 
 
@@ -95,46 +137,115 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 ### Accessibility Statement
 Committed to making *Maths Challenge* accessible to all users, complying with accessibility standards such as WCAG.
 
-## Testing
+# Testing
 
-# Responsive Design
+## Overview
 
-Ensure the project is responsive across various screen sizes and browsers, adhering to the WCAG 2.1 Reflow criteria.
+The testing process for Maths Challenge involves ensuring a seamless user experience, focusing on responsiveness, accessibility, and overall functionality. The goal is to provide an engaging and error-free platform for users to enhance their math skills.
+
+## Technologies Used
+
+- **HTML/CSS:** Frontend styling and structure.
+- **JavaScript:** Interactive features and game logic.
+- **GitHub/Gitpod:** Version control and collaboration.
+
+## Responsive Design Testing
+
+To guarantee a consistent experience across various devices and browsers, the website's responsiveness is thoroughly tested.
 
 ### Testing Procedure
 
-1. Open your preferred browser and visit the Maths Challenge
-2. Access developer tools by right-clicking and selecting inspect.
-3. Set the view to responsive and reduce the width to 320px.
-4. Adjust the zoom to 50%.
-5. Drag the responsive window to its maximum width.
+1. Open the Maths Challenge website in different browsers (Chrome, Firefox, Safari, Edge).
+2. Use developer tools to simulate a variety of devices, including mobile phones and tablets.
+3. Check for any visual glitches, overlapping elements, or distortion of images.
+4. Test the navigation menu to ensure it remains user-friendly on different screen sizes.
+5. Verify that the website does not require horizontal scrolling on any device.
 
 ### Expected Outcome
 
-- The website should seamlessly adapt to different screen sizes.
-- Images must not appear pixelated or stretched.
-- Horizontal scrolling should be avoided.
-- Elements on the page should not overlap.
+- The website should adapt seamlessly to different screen sizes.
+- Images and text should retain clarity and legibility.
+- The navigation menu should be accessible and easy to use on all devices.
+- No overlapping elements or distortion should occur.
 
-## Accessibility
+### Actual Results
 
-Utilize the Wave Accessibility tool for ongoing development and final testing. Concentrate on the following criteria:
+The website behaved as expected.
 
-1. Ensure all forms have associated labels or appropriate aria-labels.
-2. Validate that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
-3. Verify correct heading levels to accurately convey content importance.
-4. Confirm content is organized within landmarks for ease of use with assistive technology.
-5. Provide alternative text or titles for non-textual content.
-6. Set the HTML page lang attribute.
-7. Implement Aria properties in adherence to best practices outlined in WCAG 2.1.
-8. Follow established coding best practices for WCAG 2.1.
+## Accessibility Testing
 
-### Manual Testing
+Ensuring accessibility is a priority to make Maths Challenge inclusive to all users, complying with WCAG 2.1 standards.
 
-Identified accessibility issues:
+### Wave Accessibility Tool
 
-**Issue #1:**
-Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which i found from Microsoft word keyboard.
+1. **Forms and Labels:**
+   - Checked that all forms have associated labels or appropriate aria-labels.
+   
+2. **Color Contrasts:**
+   - Validated that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
+
+3. **Heading Levels:**
+   - Verified correct heading levels to accurately convey content importance.
+
+4. **Landmarks:**
+   - Confirmed content is organized within landmarks for ease of use with assistive technology.
+
+5. **Alternative Text:**
+   - Provided alternative text or titles for non-textual content.
+
+6. **HTML Page Lang Attribute:**
+   - Set the HTML page lang attribute to ensure proper language recognition.
+
+7. **Aria Properties:**
+   - Implemented Aria properties following best practices outlined in WCAG 2.1.
+
+8. **Coding Best Practices:**
+   - Followed established coding best practices for WCAG 2.1.
+
+### Manual Tests
+
+Manual tests were conducted to ensure accessibility without the need for additional details about specific issues.
+
+## Functional Testing
+
+Functional testing ensures that all interactive elements and features work as intended.
+
+### Navigation Links
+
+Navigation links on the respective pages were tested for correctness, ensuring they directed users to the intended pages.
+
+- Clicked "Start Playing" to navigate to the game page.
+- Selected different difficulty levels to ensure the startGame function triggered correctly.
+- Checked that the navigation menu links correctly redirect to the corresponding pages.
+
+All links navigated to the correct pages as expected.
+
+## Form Testing
+
+The game involves users inputting answers to math problems. Form testing ensures the correct handling of user inputs.
+
+### Scenario One - Correct Inputs
+
+Submitted correct answers for addition, subtraction, multiplication, and division problems to ensure the scoring system worked accurately.
+
+### Scenario Two - Incorrect Inputs
+
+Submitted incorrect answers to verify that the game provides proper feedback and does not break.
+
+## Validator Testing
+
+### HTML
+
+No errors were found when using the official W3C validator for HTML.
+
+### CSS
+
+No errors were found when using the official (Jigsaw) validator for CSS.
+
+### JavaScript
+
+Checked the JavaScript code using JSHint to ensure it adheres to best practices.
+
 
 ## Deployment
 
