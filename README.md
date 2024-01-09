@@ -31,8 +31,14 @@ Dive into the world of interactive learning and fun with our JavaScript-based ma
 2. Select a level of difficulty.
 3. Solve the problems quickly and accurately to earn points.
 4. Your score will be recorded after you have completed the quiz - and for bragging rights!
-            
-# Let the math games begin! :trophy:
+
+## Technologies Used
+
+- **HTML/CSS:** Frontend styling and structure.
+- **JavaScript:** Interactive features and game logic.
+- **GitHub/Gitpod:** Version control and collaboration.
+
+## Let the math games begin! :trophy:
 
 # User Stories
 
@@ -142,5 +148,101 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 ![Score](docs/Score.jpg)
 5. Score
 - Keep track of your score.
-- Work on your progress and get the otption to play again. 
+- Work on your progress and get the otption to play again.
+
+  # Testing
+
+## Responsiveness
+The Maths Challenge website was tested for responsiveness on screen sizes from 320px and above, following WCAG 2.1 Reflow criteria for responsive design. The testing was performed on Chrome, Edge, and Opera browsers.
+
+### Testing Steps
+1. Open the browser and navigate to Maths Challenge.
+2. Access developer tools (right-click and inspect).
+3. Set the view to responsive and reduce the width to 320px.
+4. Zoom out to 50%.
+5. Click and drag the responsive window to maximum width.
+
+### Expected Results
+The website should be responsive on all screen sizes with no pixelated or stretched images, no horizontal scrolling, and no overlapping elements.
+
+### Actual Results
+The website behaved as expected.
+
+## Accessibility
+Utilise the Wave Accessibility tool for ongoing development and final testing. Concentrate on the following criteria:
+1. Ensure all forms have associated labels or appropriate aria-labels.
+2. Validate that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
+3. Verify correct heading levels to accurately convey content importance.
+4. Confirm content is organized within landmarks for ease of use with assistive technology.
+5. Provide alternative text or titles for non-textual content.
+6. Set the HTML page lang attribute.
+7. Implement Aria properties in adherence to best practices outlined in WCAG 2.1.
+8. Follow established coding best practices for WCAG 2.1.
+
+## Manual Tests
+
+### Lighthouse Testing
+
+## Functional Testing
+
+### Navigation Links
+Navigation links on the respective pages were tested for correctness, ensuring they directed users to the intended pages.
+* Home links to `index.html`.
+
+### Form Testing
+The site was tested for both correct and incorrect inputs, covering various scenarios.
+
+#### Scenario One - Correct Inputs
+The sign-up form submits successfully with no errors, redirecting to `index.html`.
+
+#### Scenario Two - ALTs for images, audio, and background
+
+
+#### Unfixed Errors
+Issue #1: 
+
+Issue #2: Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft Word keyboard.
+
+## Validator Testing
+
+### HTML
+No errors were found when using the official W3C validator for HTML.
+
+### CSS
+No errors were found when using the official (Jigsaw) validator for CSS.
+
+## Deployment
+
+### GitHub
+This project, Maths Challenge, is deployed using GitHub pages using the following process,
+
+#### Deploying a GitHub Repository via GitHub Pages
+* In your Repository section, select the Repository you wish to deploy.
+* In the top horizontal Menu, locate and click the Settings link.
+* Inside the Setting page, around halfway down locate the GitHub Pages Section.
+* Under Source, select the None tab and change it to Main and click Save.
+* Finally, once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it does not load immediately.
+
+#### Making a Local Clone
+* Find the GitHub Repository.
+* Click the Code button
+* Copy the link shown.
+* In Gitpod, change the directory to the location you would like the cloned directory to be located.
+* Type `git clone`, and paste the link you copied in step 3.
+* Press Enter to have the local clone created.
+
+# Credits
+
+## Coding Instructions
+
+* Inspiration from Love Running project provided by Code Institute
+* [WebDevSimplified JavaScript Quiz App](https://github.com/WebDevSimplified/JavaScript-Quiz-App/blob/master/script.js)
+* [YouTube Tutorial on JavaScript Quiz App](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+* [MDN Web Docs for CSS :hover Effect](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover#)
+* [YouTube Tutorial on Navigation Bar](https://www.youtube.com/watch?v=iXKScihfSwE)
+* [w3schools](https://www.w3schools.com/) for reference on proper structure and code writing
+* Signup form and redirection page guidance from mentor Gareth McGirr Tacos Travels
+* Flexbox guidance from Daisy McGirr
+* README image sizes - [uupaa Gist](https://gist.github.com/uupaa/f77d2bcf4dc7a294d109)
+
 
