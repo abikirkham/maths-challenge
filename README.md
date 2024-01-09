@@ -1,7 +1,7 @@
 # Welcome to Maths Challenge! :video_game: :star2:
 <img src="docs/mockup-p2.jpg" width="700">
-## Maths Challenge Contents
 
+## Maths Challenge Contents
 1. [Why Choose Maths Challenge?](#why-choose-maths-challenge)
 2. [User Stories](#user-stories)
 3. [Features](#features)
