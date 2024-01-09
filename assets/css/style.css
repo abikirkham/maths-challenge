@@ -63,7 +63,7 @@ header {
 }
 
 #logo:hover {
-    color: #95a1c2;
+    color: black;
 }
 
 h1 a {
@@ -73,7 +73,7 @@ p a {
     color: #EF476F;
 }
 p a:hover {
-    color: #95a1c2;
+    color: black;
 }
 /* Navigation Styles */
 nav {
@@ -97,7 +97,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #95a1c2;
+    color: #black;
 }
 
 /* Dropdown menu styles */
@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .toggle-label:hover {
-    color: #95a1c2;
+    color: #black;
 }
 
 .dropdown-content {
@@ -223,7 +223,7 @@ form button a {
 }
 
 form button:hover a {
-    background-color: #95a1c2;
+    background-color: black;
 }
 
 
@@ -242,13 +242,13 @@ form button:hover a {
 }
 
 .button:hover {
-    background-color: #fcf8e6;
-    color: #95a1c2;
+    background-color: #black;
+    color: #EF476F;
 }
 
 #level-container button:hover {
-    background-color: #fcf8e6;
-    color: #95a1c2;
+    background-color: #black;
+    color: #EF476F;
 }
 
 /* button styles for question answers on game */
@@ -269,8 +269,8 @@ form button:hover a {
 }
 
 .btn:hover:not([disabled]) {
-    background-color: #fffcf9;
-    color: #95a1c2;
+    background-color: #black;
+    color: #EF476F;
 }
 .btn:disabled {
     cursor: no-drop;
@@ -291,8 +291,8 @@ cursor: pointer;
 }
 
 #next-btn:hover {
-    background-color: #fffcf9;
-    color: #95a1c2;
+    background-color: #black;
+    color: #EF476F;
 }
 
 .correct {
