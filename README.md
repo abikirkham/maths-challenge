@@ -193,7 +193,11 @@ Utilise the Wave Accessibility tool for ongoing development and final testing. C
 
 ### Navigation Links
 Navigation links on the respective pages were tested for correctness, ensuring they directed users to the intended pages.
-* Home links to `index.html`.
+* Home links go to `index.html`.
+* Levels links go to 'levels.html'.
+* Next buttons go to the next javascript stages.
+* Contact links go to 'contact.html'.
+* Redirection from thank you page goes to 'index.html'.
 
 ### Form Testing
 The site was tested for both correct and incorrect inputs, covering various scenarios.
