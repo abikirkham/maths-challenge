@@ -201,13 +201,9 @@ The site was tested for both correct and incorrect inputs, covering various scen
 #### Scenario One - Correct Inputs
 The sign-up form submits successfully with no errors, redirecting to `index.html`.
 
-#### Scenario Two - ALTs for images, audio, and background
-
 
 #### Unfixed Errors
-Issue #1: 
-
-Issue #2: Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft Word keyboard.
+Issue #1: Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft Word keyboard.
 
 ## Validator Testing
 
