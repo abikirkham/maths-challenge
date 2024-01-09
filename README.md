@@ -42,42 +42,42 @@ Dive into the world of interactive learning and fun with our JavaScript-based ma
 
 # User Stories
 
-## Students Seeking Math Practice
+### Students Seeking Math Practice
 As a student, I want to use Maths Challenge to practice addition, subtraction, multiplication, and division in a fun and interactive way, helping me improve my math skills.
 I want the game to provide randomised questions to keep me engaged and challenged.
 Real-time feedback is crucial for me to understand my mistakes and learn from them.
 
-## Teachers Looking for Educational Games
+### Teachers Looking for Educational Games
 As a teacher, I am excited to introduce Maths Challenge to my students as an engaging and educational game.
 I appreciate the variety of challenges offered by the game, helping students practice different math operations.
 The leaderboard feature allows me to track the progress of my students and motivate them to improve.
 
-## Parents Supporting Their Children's Learning
+### Parents Supporting Their Children's Learning
 As a parent, I see Maths Challenge as a valuable tool for my child's math development.
 I appreciate the option to select different difficulty levels to match my child's skill level.
 The game's real-time feedback ensures my child is learning and grasping mathematical concepts effectively.
 
-## Individuals Wanting to Enhance Quick Math Skills
+### Individuals Wanting to Enhance Quick Math Skills
 As an individual seeking to improve my mental math skills, I find Maths Challenge to be a perfect platform.
 The randomised challenges and time pressure help me think on my feet and improve my quick math calculations.
 I value the leaderboard feature, as it allows me to compare my performance with others and set personal goals.
 
-## Friends Competing Against Each Other
+### Friends Competing Against Each Other
 As friends looking for a fun and competitive math game, we enjoy the multiplayer aspect of Maths Challenge.
 We can challenge each other by selecting the same difficulty level and see who can score higher.
 The game's dynamic nature ensures that each round is a new and exciting experience.
 
-## Users Seeking a Quick and Fun Brain Exercise
+### Users Seeking a Quick and Fun Brain Exercise
 As someone looking for a quick and enjoyable brain exercise, I appreciate the simplicity and accessibility of Maths Challenge.
 The game's structure, with different levels and randomized challenges, keeps me entertained during short breaks.
 I can easily track my progress and see improvements in my math skills over time.
 
-## Users Who Enjoy Providing Feedback
+### Users Who Enjoy Providing Feedback
 As a user who enjoys providing feedback, I appreciate the opportunity to share my thoughts on Maths Challenge.
 Knowing that my feedback has a high chance of being implemented makes me feel valued as a user.
 I find the contact page user-friendly, and the option to offer feedback adds to the overall positive experience.
 
-## Competitive Individuals Looking for a Challenge
+### Competitive Individuals Looking for a Challenge
 As a competitive individual seeking a challenging math game, I am drawn to the variety of questions in Maths Challenge.
 The scoring system and leaderboard provide a clear measure of my performance against others.
 I enjoy the thrill of competing and improving my rank on the leaderboard.
