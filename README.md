@@ -1,4 +1,5 @@
 # Welcome to Maths Challenge! :video_game: :star2:
+![Mockup](docs/mockup-p2.jpg)
 ## Maths Challenge Contents
 
 1. [Why Choose Maths Challenge?](#why-choose-maths-challenge)
