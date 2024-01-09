@@ -213,11 +213,13 @@ Issue #2: Hidden checkboxes and labels for the gallery filter and accordion were
 
 ### HTML
 No errors were found when using the official W3C validator for HTML.
-<img src="docs/p2-w3c.jpg" width="500">
+.
+<img src="docs/p2-jigsaw.jpg" width="500">
 
 ### CSS
 No errors were found when using the official (Jigsaw) validator for CSS.
-<img src="docs/p2-jigsaw.jpg" width="500">
+.
+<img src="docs/p2-w3c.jpg" width="500">
 
 ## Deployment
 
