@@ -182,6 +182,12 @@ Utilise the Wave Accessibility tool for ongoing development and final testing. C
 ## Manual Tests
 
 ### Lighthouse Testing
+- index.html
+<img src="docs/lighthouse-index.jpg" width="500">
+- levels.html
+<img src="docs/lighthouse-levels.jpg" width="500">
+- contact.html
+<img src="docs/lighthouse-contact.jpg" width="500">
 
 ## Functional Testing
 
