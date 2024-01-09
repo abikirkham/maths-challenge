@@ -3,15 +3,14 @@
 ## Maths Challenge Contents
 
 1. [Why Choose Maths Challenge?](#why-choose-maths-challenge)
-2. [Key Features](#key-features)
-3. [How to Play](#how-to-play)
-4. [User Stories](#user-stories)
-5. [Features](#features)
-6. [Wireframes](#wireframes)
-7. [Accessibility and Transparency](#accessibility-and-transparency)
-8. [Testing](#testing)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
+2. [User Stories](#user-stories)
+3. [Features](#features)
+4. [Features](#features)
+5. [Wireframes](#wireframes)
+6. [Accessibility and Transparency](#accessibility-and-transparency)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
     
 ## Overview :brain:
 Dive into the world of interactive learning and fun with our JavaScript-based math game! Maths challenge is designed to help you practice addition, subtraction, multiplication, and division through a series of random and challenging questions. This game offers a dynamic platform that combines the thrill of gaming with the benefits of improving your arithmetic skills.
