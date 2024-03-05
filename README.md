@@ -163,9 +163,11 @@ The Maths Challenge website was tested for responsiveness on screen sizes from 3
 5. Click and drag the responsive window to maximum width.
 
 ### Expected Results
+
 The website should be responsive on all screen sizes with no pixelated or stretched images, no horizontal scrolling, and no overlapping elements.
 
 ### Actual Results
+
 The website behaved as expected.
 
 ## Accessibility
@@ -182,6 +184,8 @@ Utilise the Wave Accessibility tool for ongoing development and final testing. C
 ## Manual Tests
 
 ### Lighthouse Testing
+Integrated into Chrome Developer Tools or available as a standalone tool.
+  Below you can see the Lighthouse results for all pages
 - index.html
 <img src="docs/lighthouse-index.jpg" width="500">
 - levels.html
@@ -202,12 +206,115 @@ Navigation links on the respective pages were tested for correctness, ensuring t
 ### Form Testing
 The site was tested for both correct and incorrect inputs, covering various scenarios.
 
-#### Scenario One - Correct Inputs
-The sign-up form submits successfully with no errors, redirecting to `index.html`.
+### Scenario One - Correct Inputs
+
+**Steps to test:**
+
+1. Navigate to Maths Challenge - Home Page
+2. Scroll down to the form and input the following data:
+   - First Name: Jane
+   - Last Name: Doe
+   - Email: doe.jane@test.com
+   - Comment: This is a test.
+3. Click Submit
+4. User should be redirected to `index.html` confirmation page
+
+**Expected:**
+
+Form submits with no warnings or errors, and the user is redirected to `thankyou.html` confirmation page.
+
+**Actual:**
+
+The website behaved as expected with no errors or warnings and redirected to `thankyou.html`.
 
 
-#### Unfixed Errors
-Issue #1: Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft Word keyboard.
+### Scenario Two - Missing Required Field First Name
+
+**Steps to test:**
+
+1. Navigate to Maths Challenge - Home Page
+2. Scroll down to the form and input the following data:
+   - First Name:
+   - Last Name: Doe
+   - Email: doe.jane@test.com
+   - Comment: This is a test.
+3. Click Submit
+
+**Expected:**
+
+The form does not submit, and an error is displayed to tell the user that the field is required.
+
+**Actual:**
+
+The website behaved as expected; an error message was displayed, and the form did not submit.INCLUDE IMG
+
+### Scenario Three - Missing Required Field Last Name
+
+**Steps to test:**
+
+1. Navigate to Maths Challenge - Home Page
+2. Scroll down to the form and input the following data:
+   - First Name: Jane
+   - Last Name:
+   - Email: doe.jane@test.com
+   - Comment: This is a test.
+3. Click Submit
+
+**Expected:**
+
+The form does not submit, and an error is displayed to tell the user that the field is required.
+
+**Actual:**
+
+The website behaved as expected; an error message was displayed, and the form did not submit.INCLUDE IMG
+
+### Scenario Four - Missing Required Field Email
+
+**Steps to test:**
+
+1. Navigate to Maths Challenge - Home Page
+2. Scroll down to the form and input the following data:
+   - First Name: Jane
+   - Last Name: Doe
+   - Email:
+   - Comment: This is a test.
+3. Click Submit
+
+**Expected:**
+
+The form does not submit, and an error is displayed to tell the user that the field is required.
+
+**Actual:**
+
+The website behaved as expected; an error message was displayed, and the form did not submit.INCLUDE IMG
+
+### Scenario Six - Incorrect email format
+
+**Steps to test:**
+
+1. Navigate to Maths Challenge - Home Page
+2. Scroll down to the form and input the following data:
+   - First Name: Jane
+   - Last Name: Doe
+   - Email: doe.janetest.com
+   - Comment: This is a test.
+3. Click Submit
+
+**Expected:**
+
+The form does not submit, and an error is displayed to tell the user that a valid email is required and the format it should be in.
+
+**Actual:**
+
+The website behaved as expected; an error message was displayed, and the form did not submit. INCLUDE IMG
+
+
+## Unfixed Errors
+
+**Issue #1:** With the support and guidance with the communities on slack and from tutors at code institute providing my with all information on how to adjust the images on multi sized screens to fit in the containers. However, on smaller screens these images do present stretched.
+ INCLUDE IMG
+
+**Issue #2:** Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft word keyboard.
 
 ## Validator Testing
 
@@ -224,7 +331,15 @@ No errors were found when using the official (Jigsaw) validator for CSS.
 ## Deployment
 
 ### GitHub
-This project, Maths Challenge, is deployed using GitHub pages using the following process,
+This project, Maths Challenge, is deployed using GitHub pages using the following process:
+
+### Pushing my changes
+
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to push all committed code to the remote repository on github.
 
 #### Deploying a GitHub Repository via GitHub Pages
 * In your Repository section, select the Repository you wish to deploy.
