@@ -338,58 +338,7 @@ const questions = [
         { text: "15", correct: false},
         
     ]
-    },
-    {
-    question: "What is 140 x 5?",
-    answers: [
-        { text: "700", correct: true},
-        { text: "685", correct: false},
-        { text: "755", correct: false},
-        { text: "820", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 10 x 4 / 5?",
-    answers: [
-        { text: "4", correct: false},
-        { text: "6", correct: false},
-        { text: "5", correct: true},
-        { text: "8", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 160 / 8?",
-    answers: [
-        { text: "34", correct: false},
-        { text: "20", correct: true},
-        { text: "26", correct: false},
-        { text: "15", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 98 x 2?",
-    answers: [
-        { text: "42", correct: false},
-        { text: "38", correct: false},
-        { text: "62", correct: false},
-        { text: "49", correct: true},
-        
-    ]
-    },
-    {
-    question: "What is 24 x 40?",
-    answers: [
-        { text: "960", correct: true},
-        { text: "873", correct: false},
-        { text: "982", correct: false},
-        { text: "880", correct: false},
-        
-    ]
     }
-
 ];
 
   // Get HTML elements by their IDs
@@ -593,56 +542,6 @@ const questions = [
         { text: "12", correct: true},
         { text: "16", correct: false},
         { text: "15", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 23 x 19?",
-    answers: [
-        { text: "437", correct: true},
-        { text: "372", correct: false},
-        { text: "468", correct: false},
-        { text: "488", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 17 x 14?",
-    answers: [
-        { text: "247", correct: false},
-        { text: "196", correct: false},
-        { text: "238", correct: true},
-        { text: "218", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 49 / 7?",
-    answers: [
-        { text: "4", correct: false},
-        { text: "7", correct: true},
-        { text: "6", correct: false},
-        { text: "5", correct: false},
-        
-    ]
-    },
-    {
-    question: "What is 13 x 11?",
-    answers: [
-        { text: "121", correct: false},
-        { text: "117", correct: false},
-        { text: "143", correct: false},
-        { text: "183", correct: true},
-        
-    ]
-    },
-    {
-    question: "What is 36 / 2 / 3?",
-    answers: [
-        { text: "6", correct: true},
-        { text: "8", correct: false},
-        { text: "4", correct: false},
-        { text: "10", correct: false},
         
     ]
     }
