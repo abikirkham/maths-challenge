@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Page Title -->
+    <title>Maths Challenge</title>
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Header Content -->
+        <div class="header-content">
+            <!-- Logo with Link to Home Page -->
+            <a href="index.html">
+                <p id="logo">Maths Challenge</p>
+            </a>
+        </div>
+        <!-- Navigation Section -->
+        <nav>
+            <!-- Toggle for Mobile Menu -->
+            <input type="checkbox" class="toggle" id="menu-toggle">
+            <label for="menu-toggle" class="toggle-label">☰</label>
+            <!-- Menu Items -->
+            <ul id="menu" class="dropdown-content">
+                <li class="dropdown">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="levels.html">Levels</a>
+                </li>
+                <li class="dropdown">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Easy Level Quiz Section -->
+    <section id="easy-level">
+        <h2>Easy Level Quiz</h2>
+        <div id="question"></div>
+        <div id="answer-buttons"></div>
+        <button id="start-easy-quiz">Start Easy Quiz</button>
+    </section>
+
+    <!-- Medium Level Quiz Section -->
+    <section id="medium-level">
+        <h2>Medium Level Quiz</h2>
+        <div id="question"></div>
+        <div id="answer-buttons"></div>
+        <button id="start-medium-quiz">Start Medium Quiz</button>
+    </section>
+
+    <!-- Hard Level Quiz Section -->
+    <section id="hard-level">
+        <h2>Hard Level Quiz</h2>
+        <div id="question"></div>
+        <div id="answer-buttons"></div>
+        <button id="start-hard-quiz">Start Hard Quiz</button>
+    </section>
+    <footer>
+        <p>&copy; 2023 Maths Challenge</p>
+    </footer>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -410,3 +410,16 @@ function startGame(level) {
         startQuiz('easy');
     }
 }
+
+// Attach event listeners to start quiz buttons
+document.getElementById("start-easy-quiz").addEventListener("click", function () {
+    startGame("easy");
+});
+
+document.getElementById("start-medium-quiz").addEventListener("click", function () {
+    startGame("medium");
+});
+
+document.getElementById("start-hard-quiz").addEventListener("click", function () {
+    startGame("hard");
+});
