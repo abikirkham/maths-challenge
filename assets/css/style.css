@@ -97,7 +97,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #black;
+    color: black;
 }
 
 /* Dropdown menu styles */
@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .toggle-label:hover {
-    color: #black;
+    color: black;
 }
 
 .dropdown-content {
@@ -242,12 +242,12 @@ form button:hover a {
 }
 
 .button:hover {
-    background-color: #black;
+    background-color: black;
     color: #EF476F;
 }
 
 #level-container button:hover {
-    background-color: #black;
+    background-color: black;
     color: #EF476F;
 }
 
@@ -269,7 +269,7 @@ form button:hover a {
 }
 
 .btn:hover:not([disabled]) {
-    background-color: #black;
+    background-color: black;
     color: #EF476F;
 }
 .btn:disabled {
@@ -291,12 +291,12 @@ cursor: pointer;
 }
 
 #next-btn:hover {
-    background-color: #black;
+    background-color: black;
     color: #EF476F;
 }
 
 .correct {
- background: green;
+background: green;
 }
 
 .incorrect {
