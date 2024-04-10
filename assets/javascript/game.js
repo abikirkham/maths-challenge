@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 // Establish game levels
 const quizData = {
     easy: [
@@ -422,4 +423,5 @@ document.getElementById("start-medium-quiz").addEventListener("click", function 
 
 document.getElementById("start-hard-quiz").addEventListener("click", function () {
     startGame("hard");
+});
 });
