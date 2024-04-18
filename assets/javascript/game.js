@@ -402,6 +402,17 @@ function startQuiz(level) {
     startQuizInternal();
 }
 
+function hideOtherLevels(selectedLevel) {
+    const levels = ['easy', 'medium', 'hard'];
+    levels.forEach(level => {
+        if (level !== selectedLevel) {
+            document.getElementById(level).style.display = 'none';
+        } else {
+            document.getElementById(level).style.display = 'block';
+        }
+    });
+}
+
 // Call appropriate level based on user selection or default
 function startGame(level) {
     if (level === 'easy' || level === 'medium' || level === 'hard') {

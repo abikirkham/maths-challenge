@@ -1,16 +1,5 @@
 # Welcome to Maths Challenge! :video_game: :star2:
 <img src="docs/mockup-p2.jpg" width="700">
-
-## Maths Challenge Contents
-1. [Why Choose Maths Challenge?](#why-choose-maths-challenge)
-2. [User Stories](#user-stories)
-3. [Features](#features)
-4. [Features](#features)
-5. [Wireframes](#wireframes)
-6. [Accessibility and Transparency](#accessibility-and-transparency)
-7. [Testing](#testing)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
     
 ## Overview :brain:
 Dive into the world of interactive learning and fun with our JavaScript-based math game! Maths challenge is designed to help you practice addition, subtraction, multiplication, and division through a series of random and challenging questions. This game offers a dynamic platform that combines the thrill of gaming with the benefits of improving your arithmetic skills.
@@ -32,11 +21,6 @@ Dive into the world of interactive learning and fun with our JavaScript-based ma
 3. Solve the problems quickly and accurately to earn points.
 4. Your score will be recorded after you have completed the quiz - and for bragging rights!
 
-## Technologies Used
-
-- **HTML/CSS:** Frontend styling and structure.
-- **JavaScript:** Interactive features and game logic.
-- **GitHub/Gitpod:** Version control and collaboration.
 
 ## Let the math games begin! :trophy:
 
@@ -83,37 +67,6 @@ The scoring system and leaderboard provide a clear measure of my performance aga
 I enjoy the thrill of competing and improving my rank on the leaderboard.
 
 
-## Features 
-
-### Landing page 
-This webpage is designed for a math challenge game where users can sharpen their math skills. It provides information about the game, instructions on how to play, and links to navigate through different sections such as levels and leaderboard. The design suggests a responsive layout, including a mobile-friendly menu. The inclusion of JavaScript indicates the potential for dynamic and interactive features on the webpage.
-<img src="docs/landingsite.jpg" width="700">
-
-### Choose your level
-This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
-<img src="docs/levelssite.jpg" width="700">
-
-### Game Page
-This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
-<img src="docs/questionsite.jpg" width="700">
-
-### Contact Page
-The contact.html page is where I have a chance to accept feedback from users. This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
-<img src="docs/contactmaths.jpg" width="700">
-
-## The basics
-
-### Header with an open and close navigation
-I've decided to incorporate a discreet navigation feature that becomes visible upon clicking the three-lined icon. This menu encompasses the homepage, provides access to various levels for playing the math challenge game, and includes a leaderboard to monitor progress. Below, you can preview its appearance when both open and closed.
-<img src="docs/Closednav.jpg" width="700">
-<img src="docs/opennav.jpg" width="700">
-
-### Footer
-Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer proudly displays the essence of mathematical excellence, encapsulating the spirit of the challenge in a single phrase. 
-<img src="docs/footersite.jpg" width="700">
-
-
-
 ## Wirefames
 
 <img src="docs/Homepage%20wireframe.jpg" width="300">
@@ -150,28 +103,115 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 - Keep track of your score.
 - Work on your progress and get the otption to play again.
 
-  # Testing
+
+## Technologies Used
+
+- **HTML/CSS:** Frontend styling and structure.
+- **JavaScript:** Interactive features and game logic.
+- **GitHub/Gitpod:** Version control and collaboration.
+
+## Features 
+
+### Landing page 
+This webpage is designed for a math challenge game where users can sharpen their math skills. It provides information about the game, instructions on how to play, and links to navigate through different sections such as levels and leaderboard. The design suggests a responsive layout, including a mobile-friendly menu. The inclusion of JavaScript indicates the potential for dynamic and interactive features on the webpage.
+<img src="docs/landingsite.jpg" width="700">
+
+### Choose your level
+This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
+<img src="docs/levelssite.jpg" width="700">
+
+### Game Page
+This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
+<img src="docs/questionsite.jpg" width="700">
+
+### Contact Page
+The contact.html page is where I have a chance to accept feedback from users. This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes. 
+<img src="docs/contactmaths.jpg" width="700">
+
+## The basics
+
+### Header with an open and close navigation
+I've decided to incorporate a discreet navigation feature that becomes visible upon clicking the three-lined icon. This menu encompasses the homepage, provides access to various levels for playing the math challenge game, and includes a leaderboard to monitor progress. Below, you can preview its appearance when both open and closed.
+<img src="docs/Closednav.jpg" width="700">
+<img src="docs/opennav.jpg" width="700">
+
+### Footer
+Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer proudly displays the essence of mathematical excellence, encapsulating the spirit of the challenge in a single phrase. 
+<img src="docs/footersite.jpg" width="700">
+
+
+## Deployment
+
+### Making a Local Clone to create project
+
+- Find the GitHub Repository.
+- Click the Code button
+- Copy the link shown.
+- In Gitpod, change the directory to the location you would like the cloned directory to be located.
+- Type git clone, and paste the link you copied in step 3.
+- Press Enter to have the local clone created.
+
+### Updating my changes
+
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to update all committed code to the remote repository on github.
+
+### Github
+
+This project, *The Maths Challenge*, is deployed using GitHub pages using the following process,
+
+### Deploying a GitHub Repository via GitHub Pages
+
+- In your Repository section, select the Repository you wish to deploy.
+- In the top horizontal Menu, locate and click the Settings link.
+- Inside the Setting page, around halfway down locate the GitHub Pages Section.
+- Under Source, select the None tab and change it to Main and click Save.
+- Finally once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it does not load immediately.
+
+
+# Testing
 
 ## Responsiveness
 The Maths Challenge website was tested for responsiveness on screen sizes from 320px and above, following WCAG 2.1 Reflow criteria for responsive design. The testing was performed on Chrome, Edge, and Opera browsers.
 
-### Testing Steps
-1. Open the browser and navigate to Maths Challenge.
-2. Access developer tools (right-click and inspect).
-3. Set the view to responsive and reduce the width to 320px.
-4. Zoom out to 50%.
-5. Click and drag the responsive window to maximum width.
+Below are the images to show the responisiveness on all pages, this was done using the extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en-GB&utm_source=ext_sidebar) on [Google](https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar&hl=en-GB).
 
-### Expected Results
+<details>
+<summary>Click to expand</summary>
 
-The website should be responsive on all screen sizes with no pixelated or stretched images, no horizontal scrolling, and no overlapping elements.
+#### Home
+![Home](docs/home-screen-size.png)
+...
+<details>
 
-### Actual Results
+### Compatability
 
-The website behaved as expected.
+The project has been tested for compatibility with the following browsers using this site. Unfortunately the trail on my account would not cover macOS which is why the images may look different:
+
+- Google Chrome (Version 122)
+- Edge (Version 122)
+- Firefox (Version 124)
+- Opera (Version 108)
+- macOS Sonoma 16.5
+
+Below are the images shown to prove these tests.
+
+<details>
+<summary>Click to expand.</summary>
+
+#### Google Chrome
+![chrome](docs/chrome122.png)
+...
+</details>
+
 
 ## Accessibility
-Utilise the Wave Accessibility tool for ongoing development and final testing. Concentrate on the following criteria:
+
+By utilising the Wave Accessibility tool for ongoing development and final testing, used for the below:
+
 1. Ensure all forms have associated labels or appropriate aria-labels.
 2. Validate that color contrasts meet the minimum ratios outlined in WCAG 2.1 Contrast Guidelines.
 3. Verify correct heading levels to accurately convey content importance.
@@ -181,7 +221,6 @@ Utilise the Wave Accessibility tool for ongoing development and final testing. C
 7. Implement Aria properties in adherence to best practices outlined in WCAG 2.1.
 8. Follow established coding best practices for WCAG 2.1.
 
-## Manual Tests
 
 ### Lighthouse Testing
 Integrated into Chrome Developer Tools or available as a standalone tool.
@@ -193,18 +232,32 @@ Integrated into Chrome Developer Tools or available as a standalone tool.
 - contact.html
 <img src="docs/lighthouse-contact.jpg" width="500">
 
-## Functional Testing
+### Manual Testing
 
-### Navigation Links
-Navigation links on the respective pages were tested for correctness, ensuring they directed users to the intended pages.
-* Home links go to `index.html`.
-* Levels links go to 'levels.html'.
-* Next buttons go to the next javascript stages.
-* Contact links go to 'contact.html'.
-* Redirection from thank you page goes to 'index.html'.
+| Function | User Action | Outcome | Result |
+|----------|-------------|---------|--------|
+| Start on Home Page | Accessing the webpage using [this link](https://abikirkham.github.io/maths-challenge/index.html) | This will load the webpage with mutliple sections, the appropriate selectors and navigation/links to other pages. | Pass |
+| Hover on buttons and links | Hover mouse over buttons and links | Visual feedback (e.g., color change) | Pass |
+| Sections | Navigate through different sections | Display respective section content using HTML and CSS to be consistant | Pass |
+| Background on all pages | Nothing for user to do | Background image should load on this page without distortion | Pass |
+| Navigation | Click on navigation icon to bring the drop down function elements to show | Drop down menu acts as expected even on smaller screens | Pass |
+| About page | Click the about page link in navigation bar | Display information about the benefits, ecesitites and sample content | Pass |
+| Audio | Interact with audio elements | Play, pause, adjust volume, etc. | Pass |
+| Classes page | Click the about page link in navigation bar | Display the class sections through sections withing containers, tables and images | Pass |
+| Sections | Navigate through categorised sections | Display categorised section content | Pass |
+| Images | Accessed on the classes page | Show images with no distortion | Pass |
+| Tables | Accessed on the classes page | Visually show the table with no issues when move to smaller screens | Pass |
+| Blog | Access blog page | Display list of blog posts | Pass |
+| Sections (Blog1, Blog2, Blog3, Blog4, Blog5) | Navigate through blog sections | Display respective blog post content | Pass |
+| Contact | Accessed through navigation bar | Input first name, last name, email, etc. | Pass |
+| Name Field | Input first name | Allows user interaction | Pass |
+| Name Field | Input last name | Allows user interaction | Pass |
+| Email Field | Input email | Allows user interaction | Pass |
+| Submit | Clicks button - submit contact form | Accepts form data and opens redirect page | Pass |
+| If not filled (Name, Last Name, Email) | Submit contact form with missing fields | Validation error message will show, notifying the user to fill field out | Pass |
+| Redirect page | Submit contact form successfully | Redirect to a confirmation page, showing thank you message and that this page is on a time and will redirect in 10 seconds | Pass |
+| Timer | Trigger timer functionality when opens the Redirct page | After 10 seconds the page will open the home page without user interaction | Pass |
 
-### Form Testing
-The site was tested for both correct and incorrect inputs, covering various scenarios.
 
 ### Scenario One - Correct Inputs
 
@@ -288,7 +341,7 @@ The form does not submit, and an error is displayed to tell the user that the fi
 
 The website behaved as expected; an error message was displayed, and the form did not submit.INCLUDE IMG
 
-### Scenario Six - Incorrect email format
+### Scenario Five - Incorrect email format
 
 **Steps to test:**
 
@@ -316,7 +369,7 @@ The website behaved as expected; an error message was displayed, and the form di
 
 **Issue #2:** Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft word keyboard.
 
-## Validator Testing
+## Validator Testing I NEED ALL IMAGES FOR THE TESTING 
 
 ### HTML
 No errors were found when using the official W3C validator for HTML.
@@ -328,37 +381,9 @@ No errors were found when using the official (Jigsaw) validator for CSS.
 .
 <img src="docs/p2-w3c.jpg" width="500">
 
-## Deployment
-
-### GitHub
-This project, Maths Challenge, is deployed using GitHub pages using the following process:
-
-### Pushing my changes
-
-git add <file> - This command was used to add the file(s) to the staging area before they are committed.
-
-git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
-
-git push - This command was used to push all committed code to the remote repository on github.
-
-#### Deploying a GitHub Repository via GitHub Pages
-* In your Repository section, select the Repository you wish to deploy.
-* In the top horizontal Menu, locate and click the Settings link.
-* Inside the Setting page, around halfway down locate the GitHub Pages Section.
-* Under Source, select the None tab and change it to Main and click Save.
-* Finally, once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it does not load immediately.
-
-#### Making a Local Clone
-* Find the GitHub Repository.
-* Click the Code button
-* Copy the link shown.
-* In Gitpod, change the directory to the location you would like the cloned directory to be located.
-* Type `git clone`, and paste the link you copied in step 3.
-* Press Enter to have the local clone created.
+## Bugs
 
 # Credits
-
-## Coding Instructions
 
 * Inspiration from Love Running project provided by Code Institute
 * [WebDevSimplified JavaScript Quiz App](https://github.com/WebDevSimplified/JavaScript-Quiz-App/blob/master/script.js)
