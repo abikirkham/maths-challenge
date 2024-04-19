@@ -373,15 +373,21 @@ The website behaved as expected; an error message was displayed, and the form di
 
 ### HTML
 No errors were found when using the official W3C validator for HTML.
-.
+
+
 <img src="docs/p2-jigsaw.jpg" width="500">
 
 ### CSS
 No errors were found when using the official (Jigsaw) validator for CSS.
-.
+
+
 <img src="docs/p2-w3c.jpg" width="500">
 
-## Bugs
+## Bugs, errors anc changes
+
+After receiving feedback from players regarding the game, I have made the decision to consolidate the three separate levels in both HTML and JavaScript into a single cohesive unit. This restructuring aims to enhance code readability and improve overall usability. Leveraging insights from three distinct sources - GameDev Stack Exchange, Stack Overflow, and the Mozilla Developer Network - I embarked on the task of merging these levels. Additionally, I enlisted the support of the Code Institute tutor team to address any errors encountered along the way, ensuring a smooth transition. Now, the game is streamlined into a single Java script and HTML file, making it more user-friendly.
+
+Please see below the images from the merge and how I did this:
 
 # Credits
 
