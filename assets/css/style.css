@@ -63,7 +63,7 @@ header {
 }
 
 #logo:hover {
-    color: black;
+    color: grey;
 }
 
 h1 a {
@@ -73,7 +73,7 @@ p a {
     color: #EF476F;
 }
 p a:hover {
-    color: black;
+    color: grey;
 }
 /* Navigation Styles */
 nav {
@@ -97,7 +97,30 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: grey;
+}
+
+#easyButton,
+#mediumButton,
+#hardButton {
+        display: inline-block;
+        padding: 5px 13px;
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #EF476F;
+        color: #fcf8e6;
+        border: none;
+        border-radius: 5px;
+        transition: all 0.5s;
+}
+
+#easyButton:hover,
+#mediumButton:hover,
+#hardButton:hover {
+    background-color: grey;
+    color: #fcf8e6;
 }
 
 /* Dropdown menu styles */
@@ -117,7 +140,7 @@ nav a:hover {
 }
 
 .toggle-label:hover {
-    color: black;
+    color: grey;
 }
 
 .dropdown-content {
@@ -223,7 +246,7 @@ form button a {
 }
 
 form button:hover a {
-    background-color: black;
+    background-color: grey;
 }
 
 
@@ -242,13 +265,13 @@ form button:hover a {
 }
 
 .button:hover {
-    background-color: black;
-    color: #EF476F;
+    background-color: grey;
+    color: #fcf8e6;
 }
 
 #level-container button:hover {
-    background-color: black;
-    color: #EF476F;
+    background-color: grey;
+    color: #fcf8e6;
 }
 
 /* button styles for question answers on game */
@@ -269,8 +292,8 @@ form button:hover a {
 }
 
 .btn:hover:not([disabled]) {
-    background-color: black;
-    color: #EF476F;
+    background-color: grey;
+    color: #fcf8e6;
 }
 .btn:disabled {
     cursor: no-drop;
@@ -291,8 +314,8 @@ cursor: pointer;
 }
 
 #next-btn:hover {
-    background-color: black;
-    color: #EF476F;
+    background-color: grey;
+    color: #fcf8e6;
 }
 
 .correct {
