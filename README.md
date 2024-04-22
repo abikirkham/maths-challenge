@@ -383,11 +383,11 @@ No errors were found when using the official (Jigsaw) validator for CSS.
 
 <img src="docs/p2-w3c.jpg" width="500">
 
-## Bugs, errors anc changes
+## Bugs, errors and changes
 
-I had received feedback to generate more personalised code after working with this YouTube video to assist me to create this game. I decided to merge the levels for better code readability. I used a range of sources to help me do this, which will be credited throughout this, as well as the tutor support at code institute. 
+I had received feedback to generate more personalised code after working with this YouTube video to assist me to create this game. I decided to merge the levels for better code readability. I used a range of sources to help me do this, which will be credited throughout this section, as well as the tutor support at code institute. 
 
-First I had 3 java script pages, one for each level (easy.js, medium.js, hard.js), I also had 3 htmls liked to each one of the levels. To begin with I decided to create a game.js and copy and paste all the levels are in the same place, this was so I could first establish the game levels, I knew to do this from the first lessons on java in code institute to put the data I have on the sheet first, I incorporate this from the video too :
+First I had 3 java script pages one for each level (easy.js, medium.js, hard.js), I also had 3 htmls liked to each one of the levels. To begin with I decided to create a game.js and copy and paste all the levels are in the same place, this was so I could first establish the game levels, I knew to do this from the first lessons on java in code institute to put the data I have on the sheet first, I incorporate this from the video too :
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
@@ -401,7 +401,7 @@ const quizData = {
                 { text: "8", correct: false },
                 { text: "16", correct: true },
                 { text: "18", correct: false },
-            ], …
+            ], ...
     
     medium: [
         {
@@ -411,7 +411,7 @@ const quizData = {
                 { text: "58", correct: false },
                 { text: "56", correct: true },
                 { text: "48", correct: false },
-            ], …
+            ], ...
 
      hard: [
         {
@@ -424,13 +424,13 @@ const quizData = {
             ]
             }, 
     ]
-};
+}; ...
 ```
 
 https://www.w3schools.com/jsref/met_document_addeventlistener.asp 
 https://www.w3schools.com/jsref/dom_obj_document.asp 
 
-As there I have now moved all the leaves questions, this just left the remaining code :
+As I have now moved all questions, this leaves the remaining code three times, I removed the unwanted repeative code and left this one section as seen below:
 
 ```javascript
 // Get HTML elements by their IDs
@@ -532,7 +532,7 @@ nextButton.addEventListener("click", () => {
 startQuiz();this was displayed 3 times so I removed the remainder 2 and saved the code at this point. 
 ```
 
-Now, as this was now on 1 html and 1 js, I needed to add some new event listeners for the game so the user will be able to chose the level they want and this will load the correct game :
+Now, as this was now on 1 html and 1 javascript, I needed to add new functions and event listeners for the game so the user will be able to chose the level they want and this will load the correct game :
 
 
 ```javascript
@@ -574,12 +574,12 @@ document.getElementById("hardButton").addEventListener("click", function () {
 ```
 
 https://stackoverflow.com/questions/64712803/change-game-difficulty-javascript 
-I attempted to play this game however this did not work, I went back to look at my code and because to the merge, some id element names were not matched up .
 
-Then I need to discuss the next button wanna … Then I need to figure out how to hide the other levels because that doesn’t work…
+I attempted to play this game however this did not work, I went back to look at my code and because of the merge, some id elements names were not matched up,  I fixed this bug howeer the game still did not load as it should, I decided to go to Code Institutes Tutor Support who discussed with me the next button was not identified, (GET THE SCREENSHOT) once this was re-written, the game loaded as it should. 
+
+Then I need to figure out how to hide the other levels because that doesn’t work…
 
 Then run through testing …
-
 
 
 # Credits
