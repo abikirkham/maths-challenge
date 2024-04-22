@@ -185,7 +185,7 @@ Below are the images to show the responisiveness on all pages, this was done usi
 #### Home
 ![Home](docs/home-screen-size.png)
 ...
-<details>
+</details>
 
 ### Compatability
 
@@ -385,9 +385,202 @@ No errors were found when using the official (Jigsaw) validator for CSS.
 
 ## Bugs, errors anc changes
 
-After receiving feedback from players regarding the game, I have made the decision to consolidate the three separate levels in both HTML and JavaScript into a single cohesive unit. This restructuring aims to enhance code readability and improve overall usability. Leveraging insights from three distinct sources - GameDev Stack Exchange, Stack Overflow, and the Mozilla Developer Network - I embarked on the task of merging these levels. Additionally, I enlisted the support of the Code Institute tutor team to address any errors encountered along the way, ensuring a smooth transition. Now, the game is streamlined into a single Java script and HTML file, making it more user-friendly.
+I had received feedback to generate more personalised code after working with this YouTube video to assist me to create this game. I decided to merge the levels for better code readability. I used a range of sources to help me do this, which will be credited throughout this, as well as the tutor support at code institute. 
 
-Please see below the images from the merge and how I did this:
+First I had 3 java script pages, one for each level (easy.js, medium.js, hard.js), I also had 3 htmls liked to each one of the levels. To begin with I decided to create a game.js and copy and paste all the levels are in the same place, this was so I could first establish the game levels, I knew to do this from the first lessons on java in code institute to put the data I have on the sheet first, I incorporate this from the video too :
+
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+// Establish game levels
+const quizData = {
+    easy: [
+        {
+            question: "What is 4 x 4?",
+            answers: [
+                { text: "24", correct: false },
+                { text: "8", correct: false },
+                { text: "16", correct: true },
+                { text: "18", correct: false },
+            ], …
+    
+    medium: [
+        {
+            question: "What is 7 x 8?",
+            answers: [
+                { text: "45", correct: false },
+                { text: "58", correct: false },
+                { text: "56", correct: true },
+                { text: "48", correct: false },
+            ], …
+
+     hard: [
+        {
+            question: "What is 23 x 17?",
+            answers: [
+                { text: "327", correct: false },
+                { text: "402", correct: false },
+                { text: "391", correct: true },
+                { text: "361", correct: false },
+            ]
+            }, 
+    ]
+};
+```
+
+https://www.w3schools.com/jsref/met_document_addeventlistener.asp 
+https://www.w3schools.com/jsref/dom_obj_document.asp 
+
+As there I have now moved all the leaves questions, this just left the remaining code :
+
+```javascript
+// Get HTML elements by their IDs
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+
+// Variables to keep track of the current question index and the player's score
+let currentQuestionIndex = 0;
+let score = 0;
+
+// Function to start the quiz by resetting variables and showing the first question
+function startQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
+  updateUI();
+}
+
+// Function to update the UI with the current question and answer options
+function updateUI() {
+  resetState(); // Clear previous question state
+  const currentQuestion = questions[currentQuestionIndex];
+  const questionNo = currentQuestionIndex + 1;
+  questionElement.innerHTML = `${questionNo}. ${currentQuestion.question}`;
+
+  // Create buttons for each answer option and attach event listeners
+  currentQuestion.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn");
+    answerButtons.appendChild(button);
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("click", handleAnswerSelection);
+  });
+}
+
+// Function to reset the state of the quiz (clear answer buttons and hide next button)
+function resetState() {
+  nextButton.style.display = "none";
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
+}
+
+// Function to handle the selection of an answer
+function handleAnswerSelection(event) {
+  const selectedBtn = event.target;
+  const isCorrect = selectedBtn.dataset.correct === "true";
+  if (isCorrect) {
+    selectedBtn.classList.add("correct");
+    score++;
+  } else {
+    selectedBtn.classList.add("incorrect");
+  }
+  disableAnswerButtons();
+  nextButton.style.display = "block"; // Show the next button
+}
+
+// Function to disable all answer buttons after an answer is selected
+function disableAnswerButtons() {
+  Array.from(answerButtons.children).forEach(button => {
+    if (button.dataset.correct === "true") {
+      button.classList.add("correct");
+    }
+    button.disabled = true;
+  });
+}
+
+// Function to handle the next button click
+function handleNextButtonClick() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions.length) {
+    updateUI();
+  } else {
+    showScore();
+  }
+}
+
+// Function to display the final score at the end of the quiz
+function showScore() {
+  resetState();
+  questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+  nextButton.innerHTML = "Play Again?";
+  nextButton.style.display = "block";
+}
+
+// Event listener for the next button
+nextButton.addEventListener("click", () => {
+  if (currentQuestionIndex < questions.length) {
+    handleNextButtonClick();
+  } else {
+    startQuiz(); // If quiz is finished, restart it
+  }
+});
+
+// Start the quiz when the page loads
+startQuiz();this was displayed 3 times so I removed the remainder 2 and saved the code at this point. 
+```
+
+Now, as this was now on 1 html and 1 js, I needed to add some new event listeners for the game so the user will be able to chose the level they want and this will load the correct game :
+
+
+```javascript
+function hideOtherLevels(selectedLevel) {
+    const levels = ['easy', 'medium', 'hard'];
+    levels.forEach(level => {
+        if (level !== selectedLevel) {
+            document.getElementById(level).style.display = 'none';
+        } else {
+            document.getElementById(level).style.display = 'block';
+        }
+    });
+}
+
+// Call appropriate level based on user selection or default
+function startGame(level) {
+    if (level === 'easy' || level === 'medium' || level === 'hard') {
+        startQuiz(level);
+    } else {
+        // Default to easy level if no level is specified
+        startQuiz('easy');
+    }
+}
+
+// Attach event listeners to start quiz buttons
+document.getElementById('easyButton').addEventListener('click', function() {
+    startGame('easy');
+});
+
+
+document.getElementById("mediumButton").addEventListener("click", function () {
+    startGame("medium");
+});
+
+document.getElementById("hardButton").addEventListener("click", function () {
+    startGame("hard");
+});
+});
+```
+
+https://stackoverflow.com/questions/64712803/change-game-difficulty-javascript 
+I attempted to play this game however this did not work, I went back to look at my code and because to the merge, some id element names were not matched up .
+
+Then I need to discuss the next button wanna … Then I need to figure out how to hide the other levels because that doesn’t work…
+
+Then run through testing …
+
+
 
 # Credits
 
