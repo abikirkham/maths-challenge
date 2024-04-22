@@ -4,24 +4,6 @@
 ## Overview :brain:
 Dive into the world of interactive learning and fun with our JavaScript-based math game! Maths challenge is designed to help you practice addition, subtraction, multiplication, and division through a series of random and challenging questions. This game offers a dynamic platform that combines the thrill of gaming with the benefits of improving your arithmetic skills.
 
-## Why Choose Maths Challenge? :thinking:
-- **Educational Fun:** Enjoy the excitement of gaming while learning math.
-- **Randomized Questions:** Face a variety of challenges to keep you engaged.
-- **Real-time Feedback:** Get instant feedback to enhance your understanding.
-- **A chance to offer feedback:** Change the game to suit your needs. Your feedback has a high chance of getting implmented. I am always here to improve.
-
-## Key Features :key:
-- **Four Operations:** Practice addition, subtraction, multiplication, and division in one place.
-- **Randomised Challenges:** Never face the same question twice to keep the excitement alive!
-- **Leaderboard:** See how you stack up against others and track your progress.
-
-## How to Play :book::open_book:
-1. Click the "Start Playing" button to begin the math challenges.
-2. Select a level of difficulty.
-3. Solve the problems quickly and accurately to earn points.
-4. Your score will be recorded after you have completed the quiz - and for bragging rights!
-
-
 ## Let the math games begin! :trophy:
 
 # User Stories
