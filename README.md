@@ -67,7 +67,7 @@ The scoring system and leaderboard provide a clear measure of my performance aga
 I enjoy the thrill of competing and improving my rank on the leaderboard.
 
 
-## Wirefames
+# Wirefames
 
 <img src="docs/Homepage%20wireframe.jpg" width="300">
 
@@ -104,13 +104,13 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 - Work on your progress and get the otption to play again.
 
 
-## Technologies Used
+# Technologies Used
 
 - **HTML/CSS:** Frontend styling and structure.
 - **JavaScript:** Interactive features and game logic.
 - **GitHub/Gitpod:** Version control and collaboration.
 
-## Features 
+# Features 
 
 ### Landing page 
 This webpage is designed for a math challenge game where users can sharpen their math skills. It provides information about the game, instructions on how to play, and links to navigate through different sections such as levels and leaderboard. The design suggests a responsive layout, including a mobile-friendly menu. The inclusion of JavaScript indicates the potential for dynamic and interactive features on the webpage.
@@ -140,7 +140,7 @@ Immerse yourself in the thrill of numbers with @2023 Maths Challenge. My footer 
 <img src="docs/footersite.jpg" width="700">
 
 
-## Deployment
+# Deployment
 
 ### Making a Local Clone to create project
 
@@ -187,7 +187,7 @@ Below are the images to show the responisiveness on all pages, this was done usi
 ...
 </details>
 
-### Compatability
+## Compatability
 
 The project has been tested for compatibility with the following browsers using this site. Unfortunately the trail on my account would not cover macOS which is why the images may look different:
 
@@ -222,7 +222,7 @@ By utilising the Wave Accessibility tool for ongoing development and final testi
 8. Follow established coding best practices for WCAG 2.1.
 
 
-### Lighthouse Testing
+## Lighthouse Testing
 Integrated into Chrome Developer Tools or available as a standalone tool.
   Below you can see the Lighthouse results for all pages
 - index.html
@@ -232,7 +232,7 @@ Integrated into Chrome Developer Tools or available as a standalone tool.
 - contact.html
 <img src="docs/lighthouse-contact.jpg" width="500">
 
-### Manual Testing
+## Manual Testing
 
 | Function | User Action | Outcome | Result |
 |----------|-------------|---------|--------|
@@ -383,7 +383,7 @@ No errors were found when using the official (Jigsaw) validator for CSS.
 
 <img src="docs/p2-w3c.jpg" width="500">
 
-## Bugs, errors and changes
+# Bugs, errors and changes
 
 I had received feedback to generate more personalised code after working with this YouTube video to assist me to create this game. I decided to merge the levels for better code readability. I used a range of sources to help me do this, which will be credited throughout this section, as well as the tutor support at code institute. 
 
