@@ -313,27 +313,32 @@ const quizData = {
 
 
 // Function to start a quiz for a given level
+// Get HTML elements by their IDs
 function startQuiz(level) {
     const questions = quizData[level];
     const questionElement = document.getElementById("question");
     const answerButtons = document.getElementById("answer-buttons");
     const nextButton = document.getElementById("next-btn");
 
+// Variables to keep track of the current question index and the player's score
     let currentQuestionIndex = 0;
     let score = 0;
 
+// Function to start the quiz by resetting variables and showing the first question
     function startQuizInternal() {
         currentQuestionIndex = 0;
         score = 0;
         updateUI();
     }
 
+// Function to update the UI with the current question and answer options
     function updateUI() {
         resetState();
         const currentQuestion = questions[currentQuestionIndex];
         const questionNo = currentQuestionIndex + 1;
         questionElement.innerHTML = `${questionNo}. ${currentQuestion.question}`;
 
+  // Create buttons for each answer option and attach event listeners
         currentQuestion.answers.forEach(answer => {
             const button = document.createElement("button");
             button.innerHTML = answer.text;
@@ -346,6 +351,7 @@ function startQuiz(level) {
         });
     }
 
+// Function to reset the state of the quiz (clear answer buttons and hide next button)
     function resetState() {
         nextButton.style.display = "none";
         while (answerButtons.firstChild) {
@@ -353,6 +359,7 @@ function startQuiz(level) {
         }
     }
 
+// Function to handle the selection of an answer
     function handleAnswerSelection(event) {
         const selectedBtn = event.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
@@ -366,6 +373,7 @@ function startQuiz(level) {
         nextButton.style.display = "block";
     }
 
+// Function to disable all answer buttons after an answer is selected
     function disableAnswerButtons() {
         Array.from(answerButtons.children).forEach(button => {
             if (button.dataset.correct === "true") {
@@ -375,6 +383,7 @@ function startQuiz(level) {
         });
     }
 
+// Function to handle the next button click
     function handleNextButtonClick() {
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
@@ -384,6 +393,7 @@ function startQuiz(level) {
         }
     }
 
+// Function to display the final score at the end of the quiz
     function showScore() {
         resetState();
         questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
@@ -391,6 +401,7 @@ function startQuiz(level) {
         nextButton.style.display = "block";
     }
 
+// Event listener for the next button
     nextButton.addEventListener("click", () => {
         if (currentQuestionIndex < questions.length) {
             handleNextButtonClick();
