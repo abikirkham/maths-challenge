@@ -51,7 +51,7 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 
 # Wirefames
 
-<img src="docs/Homepage%20wireframe.jpg" width="300">
+<img src="docs/wireframe-for-homepage.jpg" width="300">
 
 1. Index HTML:
 - The index.html serves as the main entry point for your website. It typically contains:
@@ -59,7 +59,7 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 - Navigation links or buttons directing users to various sections of your website, such as the game levels, leaderboard, and any additional features.
 - Any important information or instructions for users, such as how to play the game or system requirements.
 
-<img src="docs/Levels%20wireframe%20.jpg" width="300">
+<img src="docs/wireframe-for-levels.jpg" width="300">
 2. Levels HTML:
 - The levels.html page is where users can select the difficulty or level of the math game they want to play. It usually includes:
 - An overview of the available difficulty levels (e.g., easy, medium, hard).
@@ -67,7 +67,7 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 - Visual cues or brief descriptions for each level to help users make an informed choice.
 - Navigation options to go back to the index page or proceed to the actual gameplay.
 
-<img src="docs/Question.jpg" width="300">
+<img src="docs/wireframe-for-question.jpg" width="300">
 3. Game HTML:
 - The game.html page is where the core gameplay takes place. It typically features:
 - The actual math game interface, including the math problems, input fields for answers, and any interactive elements needed for gameplay.
@@ -75,12 +75,12 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 - Clear instructions on how to play and any additional features, like hints or special power-ups.
 - A way for users to navigate back to the index or levels page after completing the game.
 
-<img src="docs/Feedback%20.jpg" width="300">
+<img src="docs/wireframe-for-feedback.jpg" width="300">
 4. Contact HTML:
 - The contact.html page is where I have a chance to accept feedback from users.
 - This includes a thankyou.html where the submit for will send you to go back to the index.html to start playing again if the user wishes.
 
-<img src="docs/Score.jpg" width="300">
+<img src="docs/wireframe-for-score.jpg" width="300">
 5. Score
 - Keep track of your score.
 - Work on your progress and get the otption to play again.
@@ -100,7 +100,7 @@ This webpage is designed for a math challenge game where users can sharpen their
 
 ### Choose your level
 This HTML code sets up a page where users can select a level for the math challenge game. The selected level triggers a JavaScript function (startGame) associated with the respective level number. The overall structure, styling, and navigation remain consistent with the previous page.
-<img src="docs/levelssite.jpg" width="700">
+<img src="docs/levlessite.jpg" width="700">
 
 ### Game Page
 This page sets up a game for a math challenge game, providing a user interface for solving math problems and tracking scores. The page incorporates buttons for different math operations and dynamically updates the display based on user interactions.
@@ -114,7 +114,7 @@ The contact.html page is where I have a chance to accept feedback from users. Th
 
 ### Header with an open and close navigation
 I've decided to incorporate a discreet navigation feature that becomes visible upon clicking the three-lined icon. This menu encompasses the homepage, provides access to various levels for playing the math challenge game, and includes a leaderboard to monitor progress. Below, you can preview its appearance when both open and closed.
-<img src="docs/Closednav.jpg" width="700">
+<img src="docs/closednav.jpg" width="700">
 <img src="docs/opennav.jpg" width="700">
 
 ### Footer
@@ -342,14 +342,6 @@ The form does not submit, and an error is displayed to tell the user that a vali
 **Actual:**
 
 The website behaved as expected; an error message was displayed, and the form did not submit. INCLUDE IMG
-
-
-## Unfixed Errors
-
-**Issue #1:** With the support and guidance with the communities on slack and from tutors at code institute providing my with all information on how to adjust the images on multi sized screens to fit in the containers. However, on smaller screens these images do present stretched.
- INCLUDE IMG
-
-**Issue #2:** Hidden checkboxes and labels for the gallery filter and accordion were inaccessible via keyboard due to the use of `display: none;`. Used for the navigation, including the icons, such as, ☰, which I found from Microsoft word keyboard.
 
 ## Validator Testing I NEED ALL IMAGES FOR THE TESTING 
 

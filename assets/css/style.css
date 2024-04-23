@@ -100,10 +100,12 @@ nav a:hover {
     color: grey;
 }
 
+.button,
 #easyButton,
 #mediumButton,
 #hardButton {
         display: inline-block;
+        width: 500px;
         padding: 5px 13px;
         margin: 10px;
         font-size: 18px;
@@ -116,6 +118,7 @@ nav a:hover {
         transition: all 0.5s;
 }
 
+.button:hover,
 #easyButton:hover,
 #mediumButton:hover,
 #hardButton:hover {
@@ -159,31 +162,6 @@ nav a:hover {
 .toggle:checked+.toggle-label+.dropdown-content {
     display: block;
 }
-
-
-.game-area {
-    background-color: #fcf8e6;
-    display: block;
-    box-sizing: border-box;
-    width: 90%;
-    max-width: 600px;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.game-area h2 {
-    border-bottom: 1px solid #EF476F;
-    padding-bottom: 15px;
-}
-.quiz {
-    padding: 20px 0;
-}
-
-.quiz h2 {
-    font-weight: 600;
-}
-
 
 
 /* Container styles */
@@ -250,54 +228,12 @@ form button:hover a {
 }
 
 
-/*Button styles for start playing on index and levels*/
-.button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #EF476F;
-    color: #fcf8e6;
-    border: none;
-    border-radius: 25px;
-    transition: all 0.5s;
-}
-
-.button:hover {
-    background-color: grey;
-    color: #fcf8e6;
-}
 
 #level-container button:hover {
     background-color: grey;
     color: #fcf8e6;
 }
 
-/* button styles for question answers on game */
-.btn {
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    width: 100%;
-    margin: 10px 0;
-    text-align: left;
-    text-decoration: none;
-    background-color: #EF476F;
-    color: #fcf8e6;
-    border: none;
-    border-radius: 5px;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.btn:hover:not([disabled]) {
-    background-color: grey;
-    color: #fcf8e6;
-}
-.btn:disabled {
-    cursor: no-drop;
-}
 /* styles for next button on game html */
 #next-btn {
 display: none;
