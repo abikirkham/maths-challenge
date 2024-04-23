@@ -100,32 +100,6 @@ nav a:hover {
     color: grey;
 }
 
-.button,
-#easyButton,
-#mediumButton,
-#hardButton {
-        display: inline-block;
-        width: 500px;
-        padding: 5px 13px;
-        margin: 10px;
-        font-size: 18px;
-        text-align: center;
-        text-decoration: none;
-        background-color: #EF476F;
-        color: #fcf8e6;
-        border: none;
-        border-radius: 5px;
-        transition: all 0.5s;
-}
-
-.button:hover,
-#easyButton:hover,
-#mediumButton:hover,
-#hardButton:hover {
-    background-color: grey;
-    color: #fcf8e6;
-}
-
 /* Dropdown menu styles */
 .dropdown {
     position: relative;
@@ -235,6 +209,33 @@ form button:hover a {
 }
 
 /* styles for next button on game html */
+
+.button,
+#easyButton,
+#mediumButton,
+#hardButton {
+        display: inline-block;
+        width: 500px;
+        padding: 5px 13px;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #EF476F;
+        color: #fcf8e6;
+        border: none;
+        border-radius: 5px;
+        transition: all 0.5s;
+}
+
+.button:hover,
+#easyButton:hover,
+#mediumButton:hover,
+#hardButton:hover {
+    background-color: grey;
+    color: #fcf8e6;
+}
+
 #next-btn {
 display: none;
 padding: 10px;
@@ -275,26 +276,106 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Media Styles for smaller screens */
-@media screen and (max-width: 800px) {
+/* Media Queries */
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 575.98px) {
     body {
-        padding-top: 50px;
-        margin-top: 50px;
+        padding-top: 40px;
+        margin-top: 40px;
     }
-
     main {
-        padding: 20px;
+        height: auto;
     }
-
+    header {
+        padding: 10px 0;
+    }
+    .header-content {
+        padding: 0 10px;
+    }
     #logo {
-        font-size: 24px; 
+        font-size: 24px;
     }
-    #game-container {
-        max-width: fit-content;
-        max-height: fit-content;
+    nav ul {
+        padding: 5px;
     }
-    #info-box {
-        padding-left: 10px;
+    nav li {
+        margin-right: 10px;
+    }
+    .toggle-label {
+        font-size: 20px;
+    }
+    .container {
+        width: 95%;
+    }
+    .signup h2 {
+        font-size: 28px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+    }
+    .button,
+    #easyButton,
+    #mediumButton,
+    #hardButton {
+        width: calc(100% - 20px); /* Adjusted width */
+        padding: 6px 10px; /* Adjusted padding */
+        font-size: 14px; /* Adjusted font size */
+        margin: 5px 0;
+    }
+    .info-box {
+        padding: 30px; /* Extra padding */
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 }
 
+/* Small Screens (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding-top: 60px;
+        margin-top: 60px;
+    }
+    header {
+        padding: 15px 0;
+    }
+    .header-content {
+        padding: 0 20px;
+    }
+    #logo {
+        font-size: 28px;
+    }
+    .container {
+        width: 85%;
+    }
+    .signup h2 {
+        font-size: 32px;
+    }
+}
+
+/* Medium Screens (Desktops and Laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        padding-top: 80px;
+        margin-top: 80px;
+    }
+    header {
+        padding: 20px 0;
+    }
+    .header-content {
+        padding: 0 30px;
+    }
+    #logo {
+        font-size: 32px;
+    }
+    .container {
+        width: 80%;
+    }
+    .signup h2 {
+        font-size: 36px;
+    }
+}
