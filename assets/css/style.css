@@ -320,13 +320,13 @@ footer {
     #easyButton,
     #mediumButton,
     #hardButton {
-        width: calc(100% - 20px); /* Adjusted width */
-        padding: 6px 10px; /* Adjusted padding */
-        font-size: 14px; /* Adjusted font size */
+        width: calc(100% - 20px); 
+        padding: 6px 10px; 
+        font-size: 14px; 
         margin: 5px 0;
     }
     .info-box {
-        padding: 30px; /* Extra padding */
+        padding: 30px; 
     }
     footer {
         position: fixed;
