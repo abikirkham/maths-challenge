@@ -551,10 +551,7 @@ https://stackoverflow.com/questions/64712803/change-game-difficulty-javascript
 
 I attempted to play this game however this did not work, I went back to look at my code and because of the merge, some id elements names were not matched up,  I fixed this bug howeer the game still did not load as it should, I decided to go to Code Institutes Tutor Support who discussed with me the next button was not identified, (GET THE SCREENSHOT) once this was re-written, the game loaded as it should. 
 
-Then I need to figure out how to hide the other levels because that doesn’t work…
-
-Then run through testing …
-
+Then I need to figure out how to hide the other levels because that doesn’t work… tried with mutliple sites such as https://stackoverflow.com/questions/60873892/how-to-hide-an-element-in-if-statement and with trail and error, i could not find the best way for this to work in my code withput changing it all, i asked CI tutors to help me with this, to which i found... 
 
 # Credits
 
