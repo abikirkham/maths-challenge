@@ -226,19 +226,17 @@ Integrated into Chrome Developer Tools or available as a standalone tool.
 
 | Function | User Action | Outcome | Result |
 |----------|-------------|---------|--------|
-| Start on Home Page | Accessing the webpage using [this link](https://abikirkham.github.io/maths-challenge/index.html) | This will load the webpage with mutliple sections, the appropriate selectors and navigation/links to other pages. | Pass |
+| Start on Home Page | Accessing the webpage using [this link](https://abikirkham.github.io/maths-challenge/index.html) | This will load the webpage with the description to the game and te option to start and navigation/links to other pages. | Pass |
 | Hover on buttons and links | Hover mouse over buttons and links | Visual feedback (e.g., color change) | Pass |
-| Sections | Navigate through different sections | Display respective section content using HTML and CSS to be consistant | Pass |
-| Background on all pages | Nothing for user to do | Background image should load on this page without distortion | Pass |
 | Navigation | Click on navigation icon to bring the drop down function elements to show | Drop down menu acts as expected even on smaller screens | Pass |
-| About page | Click the about page link in navigation bar | Display information about the benefits, ecesitites and sample content | Pass |
-| Audio | Interact with audio elements | Play, pause, adjust volume, etc. | Pass |
-| Classes page | Click the about page link in navigation bar | Display the class sections through sections withing containers, tables and images | Pass |
-| Sections | Navigate through categorised sections | Display categorised section content | Pass |
-| Images | Accessed on the classes page | Show images with no distortion | Pass |
-| Tables | Accessed on the classes page | Visually show the table with no issues when move to smaller screens | Pass |
-| Blog | Access blog page | Display list of blog posts | Pass |
-| Sections (Blog1, Blog2, Blog3, Blog4, Blog5) | Navigate through blog sections | Display respective blog post content | Pass |
+| Start Game | Click the start game button link on the homepage | Comes to the level html which loads consitantly with the css through the site and shows the levels for user to chose. | Pass |
+| Easy Level | Click on the Easy button | This will hide the levels and show the easy game first question | Pass |
+| Medium Level | Click on the Medium button | This will hide the levels and show the medium game first question | Pass |
+| Hard Level | Click on the Hard button | This will hide the levels and show the hard game first question | Pass |
+| Questions on all levels | Chose your answer to the question | If correct this will highlight green, if incorrect this will highlight red and show the correct option in green. The Next question button will appear. | Pass |
+| Last question on all levels | Select answer to last question | The users score will appear, with the option to play again | Pass |
+| Play Again on all levels | Select the play again button at the end of the quiz | This will load the easy game again in a continous loop | Pass |
+| Levels page on Navigation menu | Select the drop down menu and click 'Levels' | The levels page will load consitantly with the css through the site and shows the levels for user to chose. | Pass |
 | Contact | Accessed through navigation bar | Input first name, last name, email, etc. | Pass |
 | Name Field | Input first name | Allows user interaction | Pass |
 | Name Field | Input last name | Allows user interaction | Pass |
