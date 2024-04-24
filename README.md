@@ -88,9 +88,17 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 
 # Technologies Used
 
-- **HTML/CSS:** Frontend styling and structure.
-- **JavaScript:** Interactive features and game logic.
-- **GitHub/Gitpod:** Version control and collaboration.
+## Technologies Used
+
+- [**HTML:**](https://en.wikipedia.org/wiki/HTML) I utilised HTML5 to structure my web pages, integrating multimedia elements like images and audio to enhance content presentation and user experience.
+  
+- [**CSS:**](https://en.wikipedia.org/wiki/CSS) I employed CSS to style my HTML documents, specifying visual aspects such as colors, fonts, and layouts to create an aesthetically pleasing and responsive design.
+
+- [**JavaScript**](https://en.wikipedia.org/wiki/JavaScript) I have used javascript in this project to program the behaviour of the web pages created to offer a functioning user intractability game. 
+  
+- [**GitHub:**](https://en.wikipedia.org/wiki/GitHub) I leveraged GitHub as my primary version control system, hosting my code repositories, using push/pull requests and deploying the site.
+  
+- [**Gitpod**](https://www.gitpod.io/)[**/Visual Studio Code (IDE):**](https://code.visualstudio.com/) I relied on Gitpod or Visual Studio Code as my IDE of choice, utilising their features for writing, debugging, and managing my code efficiently, whether I was working in a cloud-based or desktop environment.
 
 # Features 
 
