@@ -139,22 +139,12 @@ nav a:hover {
 
 
 /* Container styles */
-#level-container {
-    text-align: center;
-    top: 0;
-    bottom: 0;
-}
-
 .info-box {
     border: none;
     text-align: center;
     top: 0;
     bottom: 0;
 }
-
-.container {
-    width: 90%;
-} 
 
 /* Signup Section Styles */
 .signup {
