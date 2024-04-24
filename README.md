@@ -67,7 +67,7 @@ I enjoy the thrill of competing and improving my rank on the leaderboard.
 - Visual cues or brief descriptions for each level to help users make an informed choice.
 - Navigation options to go back to the index page or proceed to the actual gameplay.
 
-<img src="docs/wireframe-for-question.jpg" width="300">
+<img src="docs/wireframe-for-questions.jpg" width="300">
 3. Game HTML:
 - The game.html page is where the core gameplay takes place. It typically features:
 - The actual math game interface, including the math problems, input fields for answers, and any interactive elements needed for gameplay.
