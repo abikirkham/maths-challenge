@@ -210,6 +210,26 @@ form button:hover a {
 
 /* styles for next button on game html */
 
+button.btn {
+    display: inline-block;
+    width: 250px;
+    padding: 5px 13px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EF476F;
+    color: #fcf8e6;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button.btn:hover {
+    background-color: grey;
+    color: #fcf8e6;
+}
+
 .button,
 #easyButton,
 #mediumButton,
