@@ -413,23 +413,31 @@ function startQuiz(level) {
     startQuizInternal();
 }
 
-function hideOtherLevels(selectedLevel) {
-    const levels = ['easy', 'medium', 'hard'];
-    levels.forEach(level => {
-        if (level !== selectedLevel) {
-            document.getElementById(level).style.display = 'none';
-        } else {
-            document.getElementById(level).style.display = 'block';
-        }
+const levelButtons = document.querySelectorAll('.level-buttons');
+
+levelButtons.forEach(button => {
+    const level = button.innerHTML;
+    
+    if (level === 'easy') {
+    } else if (level === 'medium') {
+    } else if (level === 'hard') {
+    }
+
+    // Event listener to hide other levels when a level is clicked
+    button.addEventListener("click", event => {
+        levelButtons.forEach(levelButton => levelButton.style.display = 'none');
     });
-}
+});
+
 
 // Call appropriate level based on user selection or default
 function startGame(level) {
     if (level === 'easy' || level === 'medium' || level === 'hard') {
+        hideOtherLevels(level); // Hide other levels when a level is selected
         startQuiz(level);
     } else {
         // Default to easy level if no level is specified
+        hideOtherLevels('easy'); // Hide other levels when defaulting to easy level
         startQuiz('easy');
     }
 }
@@ -438,7 +446,6 @@ function startGame(level) {
 document.getElementById('easyButton').addEventListener('click', function() {
     startGame('easy');
 });
-
 
 document.getElementById("mediumButton").addEventListener("click", function () {
     startGame("medium");
