@@ -417,21 +417,21 @@ function startQuiz(level) {
 const levelButtons = document.querySelectorAll('.level-buttons');
 
 levelButtons.forEach(button => {
-    const level = button.innerHTML;
-    
-    if (level === 'easy') {
-    } else if (level === 'medium') {
-    } else if (level === 'hard') {
-    }
+    const level = button.innerHTML.toLowerCase();
+    const section = document.getElementById(level);
 
     button.addEventListener("click", event => {
+        // Hide all sections except the one associated with the clicked button
         levelButtons.forEach(levelButton => {
-            if (levelButton !== button) {
-                const sectionId = levelButton.innerHTML.toLowerCase();
-                const section = document.getElementById(sectionId);
-                section.style.display = section.style.display === "none" ? "block" : "none";
+            const sectionId = levelButton.innerHTML.toLowerCase();
+            const sectionToHide = document.getElementById(sectionId);
+            if (sectionToHide !== section) {
+                sectionToHide.style.display = "none";
             }
         });
+
+        // Toggle display of the section associated with the clicked button
+        section.style.display = section.style.display === "none" ? "block" : "none";
     });
 });
 
