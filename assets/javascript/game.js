@@ -413,6 +413,7 @@ function startQuiz(level) {
     startQuizInternal();
 }
 
+// Function to hide other levels when a level is selected
 const levelButtons = document.querySelectorAll('.level-buttons');
 
 levelButtons.forEach(button => {
@@ -423,9 +424,14 @@ levelButtons.forEach(button => {
     } else if (level === 'hard') {
     }
 
-    // Event listener to hide other levels when a level is clicked
     button.addEventListener("click", event => {
-        levelButtons.forEach(levelButton => levelButton.style.display = 'none');
+        levelButtons.forEach(levelButton => {
+            if (levelButton !== button) {
+                const sectionId = levelButton.innerHTML.toLowerCase();
+                const section = document.getElementById(sectionId);
+                section.style.display = section.style.display === "none" ? "block" : "none";
+            }
+        });
     });
 });
 
