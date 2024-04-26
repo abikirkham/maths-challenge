@@ -417,21 +417,21 @@ function startQuiz(level) {
 const levelButtons = document.querySelectorAll('.level-buttons');
 
 levelButtons.forEach(button => {
-    const level = button.innerHTML.toLowerCase();
-    const section = document.getElementById(level);
+    const level = button.innerHTML;
+    
+    if (level === 'easy') {
+    } else if (level === 'medium') {
+    } else if (level === 'hard') {
+    }
 
     button.addEventListener("click", event => {
-        // Hide all sections except the one associated with the clicked button
         levelButtons.forEach(levelButton => {
-            const sectionId = levelButton.innerHTML.toLowerCase();
-            const sectionToHide = document.getElementById(sectionId);
-            if (sectionToHide !== section) {
-                sectionToHide.style.display = "none";
+            if (levelButton !== button) {
+                const sectionId = levelButton.innerHTML.toLowerCase();
+                const section = document.getElementById(sectionId);
+                section.style.display = section.style.display === "none" ? "block" : "none";
             }
         });
-
-        // Toggle display of the section associated with the clicked button
-        section.style.display = section.style.display === "none" ? "block" : "none";
     });
 });
 
@@ -439,11 +439,11 @@ levelButtons.forEach(button => {
 // Call appropriate level based on user selection or default
 function startGame(level) {
     if (level === 'easy' || level === 'medium' || level === 'hard') {
-        hideOtherLevels(level); // Hide other levels when a level is selected
+        // hideOtherLevels(level); // Hide other levels when a level is selected
         startQuiz(level);
     } else {
         // Default to easy level if no level is specified
-        hideOtherLevels('easy'); // Hide other levels when defaulting to easy level
+        // hideOtherLevels('easy'); // Hide other levels when defaulting to easy level
         startQuiz('easy');
     }
 }
