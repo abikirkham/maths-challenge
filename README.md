@@ -557,7 +557,44 @@ https://stackoverflow.com/questions/64712803/change-game-difficulty-javascript
 
 I attempted to play this game however this did not work, I went back to look at my code and because of the merge, some id elements names were not matched up,  I fixed this bug howeer the game still did not load as it should, I decided to go to Code Institutes Tutor Support who discussed with me the next button was not identified, (GET THE SCREENSHOT) once this was re-written, the game loaded as it should. 
 
-Then I need to figure out how to hide the other levels because that doesn’t work… tried with mutliple sites such as https://stackoverflow.com/questions/60873892/how-to-hide-an-element-in-if-statement and with trail and error, i could not find the best way for this to work in my code withput changing it all, i asked CI tutors to help me with this, to which i found... 
+Once the game were merged and being played when the user selected a level, this looked messy with the other levels still being displayed once the quiz has started. I went to code instuties tutor support alongside [StackOverflow](https://stackoverflow.com/questions/60873892/how-to-hide-an-element-in-if-statement) for this as I was unsure on how to continue in the best way. Below you will see the advice given to me and the outcome of the converstaion. This now hides the other levels once the user has selected the quiz dificulty.
+![Advice from tutor support](docs/advice-for-hidden-elements.png)
+
+```javascript
+// Function to hide other levels when a level is selected
+const levelButtons = document.querySelectorAll('.level-buttons');
+
+levelButtons.forEach(button => {
+    const level = button.innerHTML;
+    
+    if (level === 'easy') {
+    } else if (level === 'medium') {
+    } else if (level === 'hard') {
+    }
+
+    button.addEventListener("click", event => {
+        levelButtons.forEach(levelButton => {
+            if (levelButton !== button) {
+                const sectionId = levelButton.innerHTML.toLowerCase();
+                const section = document.getElementById(sectionId);
+                section.style.display = section.style.display === "none" ? "block" : "none";
+            }
+        });
+    });
+});
+
+
+// Call appropriate level based on user selection or default
+function startGame(level) {
+    if (level === 'easy' || level === 'medium' || level === 'hard') {
+        // hideOtherLevels(level); // Hide other levels when a level is selected
+        startQuiz(level);
+    } else {
+        // Default to easy level if no level is specified
+        // hideOtherLevels('easy'); // Hide other levels when defaulting to easy level
+        startQuiz('easy');
+
+```
 
 # Credits
 
